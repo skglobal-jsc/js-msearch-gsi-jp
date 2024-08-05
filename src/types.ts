@@ -19,3 +19,19 @@ export interface MuniRecord {
 export interface MuniMap {
   [key: string]: MuniRecord;
 }
+
+type Geometry = {
+  coordinates: number[];
+  type: string;
+};
+
+type Properties = {
+  addressCode: string;
+  title: string;
+  dataSource: string;
+};
+export interface SearchResults {
+  geometry: Geometry;
+  type: string;
+  properties: Properties;
+}

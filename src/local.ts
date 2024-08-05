@@ -1,5 +1,5 @@
 import { getMuniMap } from './muni';
-import { latLonToAddressInfo } from './index';
+import { latLonToAddressInfo, searchAddress } from './index';
 
 import * as fs from 'fs';
 
@@ -14,6 +14,10 @@ const run = async () => {
   // const result = await latLonToAddressInfo(lat, lon);
 
   // console.log(result);
+
+  const q = '北海道';
+  const searchResults = await searchAddress(q);
+  console.log(searchResults);
 };
 
 run();
