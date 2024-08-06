@@ -1,6 +1,6 @@
 // Muni file url
 const MuniURL = 'https://maps.gsi.go.jp/js/muni.js';
-const MuniRecordPrefix = 'GSI.MUNI_ARRAY[';
+const MuniRegex = /GSI\.MUNI_ARRAY\["\d+"\]\s*=\s*'(.*?)';/g;
 
 import axios from 'axios';
 import { AddressResults, MuniMap } from './types';
@@ -13,7 +13,7 @@ const parseMuniMap = (muniMap: string) => {
   const muniMapObj: MuniMap = {};
   const lines = muniMap.split('\n');
   lines.forEach((line) => {
-    if (line.startsWith(MuniRecordPrefix)) {
+    if (MuniRegex.test(line)) {
       const muniRecord = parseMuniRecord(line);
       muniMapObj[muniRecord.cityCode] = muniRecord;
     }
@@ -26,15 +26,7 @@ const parseMuniMap = (muniMap: string) => {
  * @param line
  */
 const parseMuniRecord = (line: string) => {
-  // every line should start with GSI.MUNI_ARRAY[ and end with ];
-  // e.g. GSI.MUNI_ARRAY["47212"] = '47,大分県,47212,佐伯市';
-  // we need to extract 47,大分県,47212,佐伯市
-  const muniRecord = line
-    .replace(MuniRecordPrefix, '')
-    .replace("] = ", '')
-    .replace(";", '')
-    .replace(/'/g, '')
-    .replace(/"/g, '');
+  const muniRecord = line.replace(MuniRegex, '$1');
 
   const muniRecordArray = muniRecord.split(',');
 
@@ -43,11 +35,19 @@ const parseMuniRecord = (line: string) => {
     throw new Error(`invalid muni record: ${muniRecord}`);
   }
 
+  let [prefCode, prefName, cityCode, cityName] = muniRecordArray;
+
+  // if cityCode is not 5 digits, add 0 to the beginning
+  cityCode = cityCode.padStart(5, '0');
+
+  // if prefCode is not 2 digits, add 0 to the beginning
+  prefCode = prefCode.padStart(2, '0');
+
   return {
-    prefCode: muniRecordArray[0],
-    prefName: muniRecordArray[1],
-    cityCode: muniRecordArray[2],
-    cityName: muniRecordArray[3],
+    prefCode: prefCode,
+    prefName: prefName,
+    cityCode: cityCode,
+    cityName: cityName,
   };
 };
 
@@ -75,7 +75,8 @@ const muniCodeToAddressName = (muniMap: MuniMap, muniCode: string) => {
     throw new Error(`muni code ${muniCode} not found`);
   }
 
-  return `${muniRecord.prefName}${muniRecord.cityName}`;
+  const add = `${muniRecord.prefName}${muniRecord.cityName}`;
+  return add.replace(/　/g, '');
 };
 
 /**

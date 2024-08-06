@@ -1,5 +1,16 @@
-import { latLonToAddressInfo, getMuniMap } from './m_reverse_geocode';
+import {
+  latLonToAddressInfo,
+  getMuniMap,
+  latLonToAddress,
+  latLonToAddressName,
+} from './m_reverse_geocode';
 
 import { searchAddress } from './msearch';
 
-export { latLonToAddressInfo, getMuniMap, searchAddress };
+export {
+  latLonToAddressInfo,
+  latLonToAddress,
+  latLonToAddressName,
+  getMuniMap,
+  searchAddress,
+};

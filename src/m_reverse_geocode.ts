@@ -75,4 +75,9 @@ const latLonToAddressInfo = async (
   return muniMap[mc];
 };
 
-export { latLonToAddressInfo, getMuniMap };
+export {
+  latLonToAddressInfo,
+  getMuniMap,
+  latLonToAddress,
+  latLonToAddressName,
+};
