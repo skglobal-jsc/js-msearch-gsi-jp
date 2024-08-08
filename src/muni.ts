@@ -94,4 +94,79 @@ const addressResultsToAddressName = (
   return addrName;
 };
 
-export { getMuniMap, muniCodeToAddressName, addressResultsToAddressName };
+const getMuniMapLocations = async () => {
+  const muniMap = await getMuniMap();
+  // muniMap is a map of all cities and wards in Japan
+  // key: city code, value: { prefCode, prefName, cityCode, cityName }
+  // we need to convert this to a map of all locations in Japan
+  // key: prefCode , value: { prefName, cities: { key: cityCode, value: { cityCode, cityName, wards: { key: wardCode, value: { wardCode, wardName } } } } }
+
+  const muniMapLocations = {};
+  Object.keys(muniMap).forEach((cityCode) => {
+    const muniRecord = muniMap[cityCode];
+    const { prefCode, prefName, cityName } = muniRecord;
+    if (!muniMapLocations[prefCode]) {
+      muniMapLocations[prefCode] = { prefName, cities: {} };
+    }
+
+    // if cityName contains '　', it is a ward
+    // otherwise, it is a city
+    if (cityName.includes('　')) {
+      // ward name is after '　'
+      const [name, wardName] = cityName.split('　');
+      // find city has the same name
+      const city: any = Object.values(muniMap).find(
+        (c: any) => c.cityName === name
+      );
+      if (!city) {
+        console.log(`City ${name} not found in prefCode ${prefCode}`);
+      } else {
+        // add ward to city
+        muniMapLocations[prefCode].cities[city.cityCode].wards[cityCode] = {
+          prefCode,
+          cityCode: cityCode,
+          cityName: `${name}${wardName}`,
+          bigCityFlag: '1',
+          bigCityCode: city.cityCode,
+        };
+      }
+    } else {
+      muniMapLocations[prefCode].cities[cityCode] = {
+        prefCode,
+        cityCode,
+        cityName,
+        wards: {},
+      };
+    }
+  });
+
+  // assign bigCityFlag to each city
+  Object.keys(muniMapLocations).forEach((prefCode) => {
+    const pref = muniMapLocations[prefCode];
+    Object.keys(pref.cities).forEach((cityCode) => {
+      const city = pref.cities[cityCode];
+      const isBigCity = Object.values(city.wards).length > 0;
+      if (isBigCity) {
+        city.bigCityFlag = '2';
+      } else {
+        // delete wards
+        delete city.wards;
+        // if city is tokyo then bigCityFlag is 3, otherwise 0
+        if (city.prefCode === '13') {
+          city.bigCityFlag = '3';
+        } else {
+          city.bigCityFlag = '0';
+        }
+      }
+    });
+  });
+
+  return muniMapLocations;
+};
+
+export {
+  getMuniMap,
+  getMuniMapLocations,
+  muniCodeToAddressName,
+  addressResultsToAddressName,
+};
