@@ -19,17 +19,38 @@ const latLonToAddress = async (
   lat: number,
   lon: number
 ): Promise<ReverseGeocodeResults> => {
-  const url = `${BaseURL}/reverse-geocoder/LonLatToAddress`;
-  const response = await axios.get(url, {
-    responseType: 'json',
-    params: {
-      lat,
-      lon,
-    },
-  });
+  try {
+    const url = `${BaseURL}/reverse-geocoder/LonLatToAddress`;
+    const response = await axios.get(url, {
+      responseType: 'json',
+      params: {
+        lat,
+        lon,
+      },
+    });
 
-  const res = response.data;
-  return res;
+    // if status is not 200
+    if (response.status !== 200) {
+      console.log("response");
+      const err = new Error('Failed to get address. status is not 200');
+      err.name = 'API_ERROR';
+      throw err;
+    }
+
+    const res = response.data;
+    return res;
+  } catch (error: any) {
+    // if it is axios error
+    if (error.response) {
+      console.log("error.response");
+      const err = new Error('Failed to get address. status is not 200');
+      err.name = 'API_ERROR';
+      throw err;
+    } else {
+      console.log("error");
+      throw error;
+    }
+  }
 };
 
 /**
