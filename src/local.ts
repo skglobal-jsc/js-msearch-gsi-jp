@@ -4,47 +4,107 @@ import { latLonToAddressInfo, searchAddress, latLonToAddress } from './index';
 import * as fs from 'fs';
 
 const run = async () => {
-  // const muniMap = await getMuniMapLocations();
+  const muniMap = await getMuniMapLocations();
 
-  // const wards = Object.keys(muniMap)
-  //   .map((key) => {
-  //     const pref = muniMap[key];
-  //     const { cities = {} } = pref;
-  //     const wardsOfCity = Object.keys(cities).map((cityKey) => {
-  //       const city = cities[cityKey];
-  //       const { wards = {} } = city;
-  //       return Object.keys(wards).map((wardKey) => {
-  //         const ward = wards[wardKey];
-  //         return {
-  //           bigCityCode: city.cityCode,
-  //           bigCityFlag: '1',
-  //           bigCityName: city.cityName,
-  //           cityCode: ward.cityCode,
-  //           cityName: ward.cityName,
-  //           prefCode: key,
-  //         };
-  //       });
-  //     });
+  fs.writeFileSync('data/jp-locations.json', JSON.stringify(muniMap, null, 2));
 
-  //     return wardsOfCity;
-  //   })
-  //   .flat(2).reduce((acc, cur) => {
-  //     acc[cur.cityCode] = cur;
-  //     return acc;
-  //   }, {});
-  // // save to file
-  // fs.writeFileSync('data/ward-in-bigcity.json', JSON.stringify(wards, null, 2));
+  const wards = Object.keys(muniMap)
+    .map((key) => {
+      const pref = muniMap[key];
+      const { cities = {} } = pref;
+      const wardsOfCity = Object.keys(cities).map((cityKey) => {
+        const city = cities[cityKey];
+        const { wards = {} } = city;
+        return Object.keys(wards).map((wardKey) => {
+          const ward = wards[wardKey];
+          return {
+            bigCityCode: city.cityCode,
+            bigCityFlag: '1',
+            bigCityName: city.cityName,
+            cityCode: ward.cityCode,
+            cityName: ward.cityName,
+            prefCode: key,
+          };
+        });
+      });
 
-  try {
-    const latlon = [35.6895, 139.6917];
-    const [lat, lon] = latlon;
+      return wardsOfCity;
+    })
+    .flat(2)
+    .reduce((acc, cur) => {
+      acc[cur.cityCode] = cur;
+      return acc;
+    }, {});
+  // save to file
+  fs.writeFileSync('data/ward-in-bigcity.json', JSON.stringify(wards, null, 2));
 
-    const result = await latLonToAddress(lat, lon);
+  //  create all-cites-wards.json, every city has wards
+  // {
+  //   "cityName": "士別市",
+  //   "isWard": false,
+  //   "prefectureName": "北海道",
+  //   "tagData": {
+  //     "city": "01220",
+  //     "prefecture": "01",
+  //     "ward": "01220"
+  //   },
+  //   "wardName": ""
+  // },
+  const wardsTagData = Object.keys(muniMap)
+    .map((key) => {
+      const pref = muniMap[key];
+      const { cities = {} } = pref;
+      return Object.keys(cities).map((cityKey) => {
+        const city = cities[cityKey];
+        const { wards = {} } = city;
+        if (Object.keys(wards).length === 0) {
+          return {
+            cityName: city.cityName,
+            isWard: false,
+            prefectureName: pref.prefName,
+            tagData: {
+              city: city.cityCode,
+              prefecture: key,
+              ward: city.cityCode,
+            },
+            wardName: '',
+          };
+        }
+        return Object.keys(wards)
+          .map((wardKey) => {
+            const ward = wards[wardKey];
+            return {
+              cityName: city.cityName,
+              isWard: true,
+              prefectureName: pref.prefName,
+              tagData: {
+                city: ward.bigCityCode,
+                prefecture: key,
+                ward: ward.cityCode,
+              },
+              wardName: ward.cityName,
+            };
+          })
+          // .concat({
+          //   cityName: city.cityName,
+          //   isWard: false,
+          //   prefectureName: pref.prefName,
+          //   tagData: {
+          //     city: city.cityCode,
+          //     prefecture: key,
+          //     ward: city.cityCode,
+          //   },
+          //   wardName: '',
+          // });
+      });
+    })
+    .flat(2);
 
-    console.log(result);
-  } catch (error: any) {
-    console.log(error.name);
-  }
+  fs.writeFileSync(
+    'data/all-cites-wards.json',
+    JSON.stringify(wardsTagData, null, 2)
+  );
+
   // const q = '北海道';
   // const searchResults = await searchAddress(q);
   // console.log(searchResults);
