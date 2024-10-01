@@ -3,6 +3,8 @@
 export interface AddressResults {
   muniCd: string;
   lv01Nm: string;
+  mesh_code?: string;
+  notes?: string;
 }
 
 export interface ReverseGeocodeResults {

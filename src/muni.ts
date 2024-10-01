@@ -55,12 +55,18 @@ const parseMuniRecord = (line: string) => {
  * Get muni map (city or ward map by city code) from GSI
  */
 const getMuniMap = async () => {
-  const response = await axios.get(MuniURL, {
-    responseType: 'text',
-  });
+  try {
+    const response = await axios.get(MuniURL, {
+      responseType: 'text',
+      timeout: 500,
+    });
 
-  const muniMap = response.data;
-  return parseMuniMap(muniMap);
+    const muniMap = response.data;
+    return parseMuniMap(muniMap);
+  } catch (error) {
+    console.log(`Failed to get muni map: ${error}`);
+    return {};
+  }
 };
 
 /**

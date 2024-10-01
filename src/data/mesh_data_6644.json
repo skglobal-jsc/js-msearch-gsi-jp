@@ -1,0 +1,3144 @@
+{
+  "66440000": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440000",
+      "notes": ""
+    }
+  ],
+  "66440001": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440001",
+      "notes": ""
+    }
+  ],
+  "66440002": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440002",
+      "notes": ""
+    }
+  ],
+  "66440003": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440003",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440003",
+      "notes": ""
+    }
+  ],
+  "66440004": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440004",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440004",
+      "notes": ""
+    }
+  ],
+  "66440005": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440005",
+      "notes": ""
+    }
+  ],
+  "66440006": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440006",
+      "notes": ""
+    }
+  ],
+  "66440007": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440007",
+      "notes": ""
+    }
+  ],
+  "66440008": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440008",
+      "notes": ""
+    }
+  ],
+  "66440009": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440009",
+      "notes": ""
+    }
+  ],
+  "66440010": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440010",
+      "notes": ""
+    }
+  ],
+  "66440011": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440011",
+      "notes": ""
+    }
+  ],
+  "66440012": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440012",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440012",
+      "notes": ""
+    }
+  ],
+  "66440013": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440013",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440013",
+      "notes": ""
+    }
+  ],
+  "66440014": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440014",
+      "notes": ""
+    }
+  ],
+  "66440015": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440015",
+      "notes": ""
+    }
+  ],
+  "66440016": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440016",
+      "notes": ""
+    }
+  ],
+  "66440017": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440017",
+      "notes": ""
+    }
+  ],
+  "66440018": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440018",
+      "notes": ""
+    }
+  ],
+  "66440019": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440019",
+      "notes": ""
+    }
+  ],
+  "66440020": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440020",
+      "notes": ""
+    }
+  ],
+  "66440021": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440021",
+      "notes": ""
+    }
+  ],
+  "66440022": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440022",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440022",
+      "notes": ""
+    }
+  ],
+  "66440023": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440023",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440023",
+      "notes": ""
+    }
+  ],
+  "66440024": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440024",
+      "notes": ""
+    }
+  ],
+  "66440025": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440025",
+      "notes": ""
+    }
+  ],
+  "66440026": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440026",
+      "notes": ""
+    }
+  ],
+  "66440027": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440027",
+      "notes": ""
+    }
+  ],
+  "66440028": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440028",
+      "notes": ""
+    }
+  ],
+  "66440029": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440029",
+      "notes": ""
+    }
+  ],
+  "66440030": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440030",
+      "notes": ""
+    }
+  ],
+  "66440031": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440031",
+      "notes": ""
+    }
+  ],
+  "66440032": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440032",
+      "notes": ""
+    }
+  ],
+  "66440033": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440033",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440033",
+      "notes": ""
+    }
+  ],
+  "66440034": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440034",
+      "notes": ""
+    }
+  ],
+  "66440035": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440035",
+      "notes": ""
+    }
+  ],
+  "66440036": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440036",
+      "notes": ""
+    }
+  ],
+  "66440037": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440037",
+      "notes": ""
+    }
+  ],
+  "66440038": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440038",
+      "notes": ""
+    }
+  ],
+  "66440039": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440039",
+      "notes": ""
+    }
+  ],
+  "66440040": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440040",
+      "notes": ""
+    }
+  ],
+  "66440041": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440041",
+      "notes": ""
+    }
+  ],
+  "66440042": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440042",
+      "notes": ""
+    }
+  ],
+  "66440043": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440043",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440043",
+      "notes": ""
+    }
+  ],
+  "66440044": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440044",
+      "notes": ""
+    }
+  ],
+  "66440045": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440045",
+      "notes": ""
+    }
+  ],
+  "66440046": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440046",
+      "notes": ""
+    }
+  ],
+  "66440047": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440047",
+      "notes": ""
+    }
+  ],
+  "66440048": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440048",
+      "notes": ""
+    }
+  ],
+  "66440049": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440049",
+      "notes": ""
+    }
+  ],
+  "66440050": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440050",
+      "notes": ""
+    }
+  ],
+  "66440051": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440051",
+      "notes": ""
+    }
+  ],
+  "66440052": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440052",
+      "notes": ""
+    }
+  ],
+  "66440053": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440053",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440053",
+      "notes": ""
+    }
+  ],
+  "66440054": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440054",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440054",
+      "notes": ""
+    }
+  ],
+  "66440055": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440055",
+      "notes": ""
+    }
+  ],
+  "66440056": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440056",
+      "notes": ""
+    }
+  ],
+  "66440057": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440057",
+      "notes": ""
+    }
+  ],
+  "66440058": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440058",
+      "notes": ""
+    }
+  ],
+  "66440059": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440059",
+      "notes": ""
+    }
+  ],
+  "66440060": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440060",
+      "notes": ""
+    }
+  ],
+  "66440061": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440061",
+      "notes": ""
+    }
+  ],
+  "66440062": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440062",
+      "notes": ""
+    }
+  ],
+  "66440063": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440063",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440063",
+      "notes": ""
+    }
+  ],
+  "66440064": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440064",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440064",
+      "notes": ""
+    }
+  ],
+  "66440065": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440065",
+      "notes": ""
+    }
+  ],
+  "66440066": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440066",
+      "notes": ""
+    }
+  ],
+  "66440067": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440067",
+      "notes": ""
+    }
+  ],
+  "66440068": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440068",
+      "notes": ""
+    }
+  ],
+  "66440069": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440069",
+      "notes": ""
+    }
+  ],
+  "66440070": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440070",
+      "notes": ""
+    }
+  ],
+  "66440071": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440071",
+      "notes": ""
+    }
+  ],
+  "66440072": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440072",
+      "notes": ""
+    }
+  ],
+  "66440073": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440073",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440073",
+      "notes": ""
+    }
+  ],
+  "66440074": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440074",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440074",
+      "notes": ""
+    }
+  ],
+  "66440075": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440075",
+      "notes": ""
+    }
+  ],
+  "66440076": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440076",
+      "notes": ""
+    }
+  ],
+  "66440077": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440077",
+      "notes": ""
+    }
+  ],
+  "66440078": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440078",
+      "notes": ""
+    }
+  ],
+  "66440079": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440079",
+      "notes": ""
+    }
+  ],
+  "66440080": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440080",
+      "notes": ""
+    }
+  ],
+  "66440081": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440081",
+      "notes": ""
+    }
+  ],
+  "66440082": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440082",
+      "notes": ""
+    }
+  ],
+  "66440083": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440083",
+      "notes": ""
+    }
+  ],
+  "66440084": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440084",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440084",
+      "notes": ""
+    }
+  ],
+  "66440085": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440085",
+      "notes": ""
+    }
+  ],
+  "66440086": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440086",
+      "notes": ""
+    }
+  ],
+  "66440087": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440087",
+      "notes": ""
+    }
+  ],
+  "66440088": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440088",
+      "notes": ""
+    }
+  ],
+  "66440089": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440089",
+      "notes": ""
+    }
+  ],
+  "66440090": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440090",
+      "notes": ""
+    }
+  ],
+  "66440091": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440091",
+      "notes": ""
+    }
+  ],
+  "66440092": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440092",
+      "notes": ""
+    }
+  ],
+  "66440093": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440093",
+      "notes": ""
+    }
+  ],
+  "66440094": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440094",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440094",
+      "notes": ""
+    }
+  ],
+  "66440095": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66440095",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440095",
+      "notes": ""
+    }
+  ],
+  "66440096": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440096",
+      "notes": ""
+    }
+  ],
+  "66440097": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440097",
+      "notes": ""
+    }
+  ],
+  "66440098": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440098",
+      "notes": ""
+    }
+  ],
+  "66440099": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440099",
+      "notes": ""
+    }
+  ],
+  "66440100": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440100",
+      "notes": ""
+    }
+  ],
+  "66440101": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440101",
+      "notes": ""
+    }
+  ],
+  "66440102": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440102",
+      "notes": ""
+    }
+  ],
+  "66440103": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440103",
+      "notes": ""
+    }
+  ],
+  "66440104": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440104",
+      "notes": ""
+    }
+  ],
+  "66440105": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440105",
+      "notes": ""
+    }
+  ],
+  "66440106": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440106",
+      "notes": ""
+    }
+  ],
+  "66440107": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440107",
+      "notes": ""
+    }
+  ],
+  "66440108": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440108",
+      "notes": ""
+    }
+  ],
+  "66440109": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440109",
+      "notes": ""
+    }
+  ],
+  "66440110": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440110",
+      "notes": ""
+    }
+  ],
+  "66440111": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440111",
+      "notes": ""
+    }
+  ],
+  "66440112": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440112",
+      "notes": ""
+    }
+  ],
+  "66440113": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440113",
+      "notes": ""
+    }
+  ],
+  "66440114": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440114",
+      "notes": ""
+    }
+  ],
+  "66440115": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440115",
+      "notes": ""
+    }
+  ],
+  "66440116": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440116",
+      "notes": ""
+    }
+  ],
+  "66440117": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440117",
+      "notes": ""
+    }
+  ],
+  "66440118": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440118",
+      "notes": ""
+    }
+  ],
+  "66440119": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440119",
+      "notes": ""
+    }
+  ],
+  "66440120": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440120",
+      "notes": ""
+    }
+  ],
+  "66440121": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440121",
+      "notes": ""
+    }
+  ],
+  "66440122": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440122",
+      "notes": ""
+    }
+  ],
+  "66440123": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440123",
+      "notes": ""
+    }
+  ],
+  "66440124": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440124",
+      "notes": ""
+    }
+  ],
+  "66440125": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440125",
+      "notes": ""
+    }
+  ],
+  "66440126": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440126",
+      "notes": ""
+    }
+  ],
+  "66440127": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440127",
+      "notes": ""
+    }
+  ],
+  "66440128": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440128",
+      "notes": ""
+    }
+  ],
+  "66440129": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440129",
+      "notes": ""
+    }
+  ],
+  "66440130": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440130",
+      "notes": ""
+    }
+  ],
+  "66440131": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440131",
+      "notes": ""
+    }
+  ],
+  "66440132": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440132",
+      "notes": ""
+    }
+  ],
+  "66440133": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440133",
+      "notes": ""
+    }
+  ],
+  "66440134": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440134",
+      "notes": ""
+    }
+  ],
+  "66440135": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440135",
+      "notes": ""
+    }
+  ],
+  "66440136": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440136",
+      "notes": ""
+    }
+  ],
+  "66440137": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440137",
+      "notes": ""
+    }
+  ],
+  "66440138": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440138",
+      "notes": ""
+    }
+  ],
+  "66440139": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440139",
+      "notes": ""
+    }
+  ],
+  "66440140": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440140",
+      "notes": ""
+    }
+  ],
+  "66440141": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440141",
+      "notes": ""
+    }
+  ],
+  "66440142": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440142",
+      "notes": ""
+    }
+  ],
+  "66440143": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440143",
+      "notes": ""
+    }
+  ],
+  "66440144": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440144",
+      "notes": ""
+    }
+  ],
+  "66440145": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440145",
+      "notes": ""
+    }
+  ],
+  "66440146": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440146",
+      "notes": ""
+    }
+  ],
+  "66440147": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440147",
+      "notes": ""
+    }
+  ],
+  "66440148": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440148",
+      "notes": ""
+    }
+  ],
+  "66440149": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440149",
+      "notes": ""
+    }
+  ],
+  "66440150": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440150",
+      "notes": ""
+    }
+  ],
+  "66440151": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440151",
+      "notes": ""
+    }
+  ],
+  "66440152": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440152",
+      "notes": ""
+    }
+  ],
+  "66440153": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440153",
+      "notes": ""
+    }
+  ],
+  "66440154": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440154",
+      "notes": ""
+    }
+  ],
+  "66440155": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440155",
+      "notes": ""
+    }
+  ],
+  "66440156": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440156",
+      "notes": ""
+    }
+  ],
+  "66440157": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440157",
+      "notes": ""
+    }
+  ],
+  "66440158": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440158",
+      "notes": ""
+    }
+  ],
+  "66440159": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440159",
+      "notes": ""
+    }
+  ],
+  "66440160": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440160",
+      "notes": ""
+    }
+  ],
+  "66440161": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440161",
+      "notes": ""
+    }
+  ],
+  "66440162": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440162",
+      "notes": ""
+    }
+  ],
+  "66440163": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440163",
+      "notes": ""
+    }
+  ],
+  "66440164": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440164",
+      "notes": ""
+    }
+  ],
+  "66440165": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440165",
+      "notes": ""
+    }
+  ],
+  "66440166": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440166",
+      "notes": ""
+    }
+  ],
+  "66440167": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440167",
+      "notes": ""
+    }
+  ],
+  "66440168": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440168",
+      "notes": ""
+    }
+  ],
+  "66440169": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440169",
+      "notes": ""
+    }
+  ],
+  "66440170": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440170",
+      "notes": ""
+    }
+  ],
+  "66440171": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440171",
+      "notes": ""
+    }
+  ],
+  "66440172": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440172",
+      "notes": ""
+    }
+  ],
+  "66440173": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440173",
+      "notes": ""
+    }
+  ],
+  "66440174": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440174",
+      "notes": ""
+    }
+  ],
+  "66440175": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440175",
+      "notes": ""
+    }
+  ],
+  "66440176": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440176",
+      "notes": ""
+    }
+  ],
+  "66440177": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440177",
+      "notes": ""
+    }
+  ],
+  "66440178": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440178",
+      "notes": ""
+    }
+  ],
+  "66440179": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440179",
+      "notes": ""
+    }
+  ],
+  "66440180": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440180",
+      "notes": ""
+    }
+  ],
+  "66440181": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440181",
+      "notes": ""
+    }
+  ],
+  "66440182": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440182",
+      "notes": ""
+    }
+  ],
+  "66440183": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440183",
+      "notes": ""
+    }
+  ],
+  "66440184": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440184",
+      "notes": ""
+    }
+  ],
+  "66440185": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440185",
+      "notes": ""
+    }
+  ],
+  "66440186": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440186",
+      "notes": ""
+    }
+  ],
+  "66440187": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440187",
+      "notes": ""
+    }
+  ],
+  "66440188": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440188",
+      "notes": ""
+    }
+  ],
+  "66440189": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440189",
+      "notes": ""
+    }
+  ],
+  "66440190": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440190",
+      "notes": ""
+    }
+  ],
+  "66440191": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440191",
+      "notes": ""
+    }
+  ],
+  "66440192": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440192",
+      "notes": ""
+    }
+  ],
+  "66440193": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440193",
+      "notes": ""
+    }
+  ],
+  "66440194": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440194",
+      "notes": ""
+    }
+  ],
+  "66440195": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440195",
+      "notes": ""
+    }
+  ],
+  "66440196": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440196",
+      "notes": ""
+    }
+  ],
+  "66440197": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440197",
+      "notes": ""
+    }
+  ],
+  "66440198": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440198",
+      "notes": ""
+    }
+  ],
+  "66440199": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440199",
+      "notes": ""
+    }
+  ],
+  "66440200": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440200",
+      "notes": ""
+    }
+  ],
+  "66440201": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440201",
+      "notes": ""
+    }
+  ],
+  "66440202": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440202",
+      "notes": ""
+    }
+  ],
+  "66440203": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440203",
+      "notes": ""
+    }
+  ],
+  "66440210": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440210",
+      "notes": ""
+    }
+  ],
+  "66440211": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440211",
+      "notes": ""
+    }
+  ],
+  "66440212": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440212",
+      "notes": ""
+    }
+  ],
+  "66440213": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440213",
+      "notes": ""
+    }
+  ],
+  "66440214": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440214",
+      "notes": ""
+    }
+  ],
+  "66440220": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440220",
+      "notes": ""
+    }
+  ],
+  "66440221": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440221",
+      "notes": ""
+    }
+  ],
+  "66440222": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440222",
+      "notes": ""
+    }
+  ],
+  "66440223": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440223",
+      "notes": ""
+    }
+  ],
+  "66440230": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440230",
+      "notes": ""
+    }
+  ],
+  "66440231": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440231",
+      "notes": ""
+    }
+  ],
+  "66440232": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440232",
+      "notes": ""
+    }
+  ],
+  "66440233": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440233",
+      "notes": ""
+    }
+  ],
+  "66440240": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440240",
+      "notes": ""
+    }
+  ],
+  "66440250": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440250",
+      "notes": ""
+    }
+  ],
+  "66440260": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440260",
+      "notes": ""
+    }
+  ],
+  "66440270": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440270",
+      "notes": ""
+    }
+  ],
+  "66440280": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440280",
+      "notes": ""
+    }
+  ],
+  "66440290": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66440290",
+      "notes": ""
+    }
+  ],
+  "66440702": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440702",
+      "notes": ""
+    }
+  ],
+  "66440703": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440703",
+      "notes": ""
+    }
+  ],
+  "66440704": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440704",
+      "notes": ""
+    }
+  ],
+  "66440705": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440705",
+      "notes": ""
+    }
+  ],
+  "66440706": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440706",
+      "notes": ""
+    }
+  ],
+  "66440707": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440707",
+      "notes": ""
+    }
+  ],
+  "66440708": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440708",
+      "notes": ""
+    }
+  ],
+  "66440709": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440709",
+      "notes": ""
+    }
+  ],
+  "66440713": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440713",
+      "notes": ""
+    }
+  ],
+  "66440714": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440714",
+      "notes": ""
+    }
+  ],
+  "66440715": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440715",
+      "notes": ""
+    }
+  ],
+  "66440716": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440716",
+      "notes": ""
+    }
+  ],
+  "66440717": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440717",
+      "notes": ""
+    }
+  ],
+  "66440718": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440718",
+      "notes": ""
+    }
+  ],
+  "66440719": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440719",
+      "notes": ""
+    }
+  ],
+  "66440723": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440723",
+      "notes": ""
+    }
+  ],
+  "66440724": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440724",
+      "notes": ""
+    }
+  ],
+  "66440725": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440725",
+      "notes": ""
+    }
+  ],
+  "66440726": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440726",
+      "notes": ""
+    }
+  ],
+  "66440727": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440727",
+      "notes": ""
+    }
+  ],
+  "66440728": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440728",
+      "notes": ""
+    }
+  ],
+  "66440729": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440729",
+      "notes": ""
+    }
+  ],
+  "66440734": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440734",
+      "notes": ""
+    }
+  ],
+  "66440735": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440735",
+      "notes": ""
+    }
+  ],
+  "66440736": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440736",
+      "notes": ""
+    }
+  ],
+  "66440737": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440737",
+      "notes": ""
+    }
+  ],
+  "66440738": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440738",
+      "notes": ""
+    }
+  ],
+  "66440739": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440739",
+      "notes": ""
+    }
+  ],
+  "66440744": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440744",
+      "notes": ""
+    }
+  ],
+  "66440745": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440745",
+      "notes": ""
+    }
+  ],
+  "66440746": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440746",
+      "notes": ""
+    }
+  ],
+  "66440747": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440747",
+      "notes": ""
+    }
+  ],
+  "66440748": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440748",
+      "notes": ""
+    }
+  ],
+  "66440749": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440749",
+      "notes": ""
+    }
+  ],
+  "66440754": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440754",
+      "notes": ""
+    }
+  ],
+  "66440755": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440755",
+      "notes": ""
+    }
+  ],
+  "66440756": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440756",
+      "notes": ""
+    }
+  ],
+  "66440757": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440757",
+      "notes": ""
+    }
+  ],
+  "66440758": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440758",
+      "notes": ""
+    }
+  ],
+  "66440759": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440759",
+      "notes": ""
+    }
+  ],
+  "66440765": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440765",
+      "notes": ""
+    }
+  ],
+  "66440766": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440766",
+      "notes": ""
+    }
+  ],
+  "66440767": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440767",
+      "notes": ""
+    }
+  ],
+  "66440768": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440768",
+      "notes": ""
+    }
+  ],
+  "66440769": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440769",
+      "notes": ""
+    }
+  ],
+  "66440777": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440777",
+      "notes": ""
+    }
+  ],
+  "66440778": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440778",
+      "notes": ""
+    }
+  ],
+  "66440779": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440779",
+      "notes": ""
+    }
+  ],
+  "66440788": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440788",
+      "notes": ""
+    }
+  ],
+  "66440789": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440789",
+      "notes": ""
+    }
+  ],
+  "66440799": [
+    {
+      "city_code": "01545",
+      "city_name": "斜里町",
+      "mesh_code": "66440799",
+      "notes": ""
+    }
+  ],
+  "66441000": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441000",
+      "notes": ""
+    }
+  ],
+  "66441001": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441001",
+      "notes": ""
+    }
+  ],
+  "66441002": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441002",
+      "notes": ""
+    }
+  ],
+  "66441003": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441003",
+      "notes": ""
+    }
+  ],
+  "66441004": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441004",
+      "notes": ""
+    }
+  ],
+  "66441005": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441005",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441005",
+      "notes": ""
+    }
+  ],
+  "66441006": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441006",
+      "notes": ""
+    }
+  ],
+  "66441007": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441007",
+      "notes": ""
+    }
+  ],
+  "66441008": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441008",
+      "notes": ""
+    }
+  ],
+  "66441009": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441009",
+      "notes": ""
+    }
+  ],
+  "66441010": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441010",
+      "notes": ""
+    }
+  ],
+  "66441011": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441011",
+      "notes": ""
+    }
+  ],
+  "66441012": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441012",
+      "notes": ""
+    }
+  ],
+  "66441013": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441013",
+      "notes": ""
+    }
+  ],
+  "66441014": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441014",
+      "notes": ""
+    }
+  ],
+  "66441015": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441015",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441015",
+      "notes": ""
+    }
+  ],
+  "66441016": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441016",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441016",
+      "notes": ""
+    }
+  ],
+  "66441017": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441017",
+      "notes": ""
+    }
+  ],
+  "66441018": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441018",
+      "notes": ""
+    }
+  ],
+  "66441019": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441019",
+      "notes": ""
+    }
+  ],
+  "66441020": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441020",
+      "notes": ""
+    }
+  ],
+  "66441021": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441021",
+      "notes": ""
+    }
+  ],
+  "66441022": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441022",
+      "notes": ""
+    }
+  ],
+  "66441023": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441023",
+      "notes": ""
+    }
+  ],
+  "66441024": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441024",
+      "notes": ""
+    }
+  ],
+  "66441025": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441025",
+      "notes": ""
+    }
+  ],
+  "66441026": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441026",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441026",
+      "notes": ""
+    }
+  ],
+  "66441027": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441027",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441027",
+      "notes": ""
+    }
+  ],
+  "66441028": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441028",
+      "notes": ""
+    }
+  ],
+  "66441029": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441029",
+      "notes": ""
+    }
+  ],
+  "66441030": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441030",
+      "notes": ""
+    }
+  ],
+  "66441031": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441031",
+      "notes": ""
+    }
+  ],
+  "66441032": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441032",
+      "notes": ""
+    }
+  ],
+  "66441033": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441033",
+      "notes": ""
+    }
+  ],
+  "66441034": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441034",
+      "notes": ""
+    }
+  ],
+  "66441035": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441035",
+      "notes": ""
+    }
+  ],
+  "66441036": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441036",
+      "notes": ""
+    }
+  ],
+  "66441037": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441037",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441037",
+      "notes": ""
+    }
+  ],
+  "66441038": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441038",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441038",
+      "notes": ""
+    }
+  ],
+  "66441039": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441039",
+      "notes": ""
+    },
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441039",
+      "notes": ""
+    }
+  ],
+  "66441040": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441040",
+      "notes": ""
+    }
+  ],
+  "66441041": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441041",
+      "notes": ""
+    }
+  ],
+  "66441042": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441042",
+      "notes": ""
+    }
+  ],
+  "66441043": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441043",
+      "notes": ""
+    }
+  ],
+  "66441044": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441044",
+      "notes": ""
+    }
+  ],
+  "66441045": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441045",
+      "notes": ""
+    }
+  ],
+  "66441046": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441046",
+      "notes": ""
+    }
+  ],
+  "66441047": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441047",
+      "notes": ""
+    }
+  ],
+  "66441048": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441048",
+      "notes": ""
+    }
+  ],
+  "66441049": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441049",
+      "notes": ""
+    }
+  ],
+  "66441050": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441050",
+      "notes": ""
+    }
+  ],
+  "66441051": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441051",
+      "notes": ""
+    }
+  ],
+  "66441052": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441052",
+      "notes": ""
+    }
+  ],
+  "66441053": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441053",
+      "notes": ""
+    }
+  ],
+  "66441054": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441054",
+      "notes": ""
+    }
+  ],
+  "66441055": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441055",
+      "notes": ""
+    }
+  ],
+  "66441056": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441056",
+      "notes": ""
+    }
+  ],
+  "66441057": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441057",
+      "notes": ""
+    }
+  ],
+  "66441058": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441058",
+      "notes": ""
+    }
+  ],
+  "66441060": [
+    {
+      "city_code": "01208",
+      "city_name": "北見市",
+      "mesh_code": "66441060",
+      "notes": ""
+    }
+  ],
+  "66441100": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441100",
+      "notes": ""
+    }
+  ],
+  "66441101": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441101",
+      "notes": ""
+    }
+  ],
+  "66441102": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441102",
+      "notes": ""
+    }
+  ],
+  "66441103": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441103",
+      "notes": ""
+    }
+  ],
+  "66441104": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441104",
+      "notes": ""
+    }
+  ],
+  "66441105": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441105",
+      "notes": ""
+    }
+  ],
+  "66441106": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441106",
+      "notes": ""
+    }
+  ],
+  "66441107": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441107",
+      "notes": ""
+    }
+  ],
+  "66441108": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441108",
+      "notes": ""
+    }
+  ],
+  "66441109": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441109",
+      "notes": ""
+    }
+  ],
+  "66441110": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441110",
+      "notes": ""
+    }
+  ],
+  "66441111": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441111",
+      "notes": ""
+    }
+  ],
+  "66441112": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441112",
+      "notes": ""
+    }
+  ],
+  "66441113": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441113",
+      "notes": ""
+    }
+  ],
+  "66441114": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441114",
+      "notes": ""
+    }
+  ],
+  "66441115": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441115",
+      "notes": ""
+    }
+  ],
+  "66441116": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441116",
+      "notes": ""
+    }
+  ],
+  "66441117": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441117",
+      "notes": ""
+    }
+  ],
+  "66441118": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441118",
+      "notes": ""
+    }
+  ],
+  "66441119": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441119",
+      "notes": ""
+    }
+  ],
+  "66441120": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441120",
+      "notes": ""
+    }
+  ],
+  "66441121": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441121",
+      "notes": ""
+    }
+  ],
+  "66441122": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441122",
+      "notes": ""
+    }
+  ],
+  "66441123": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441123",
+      "notes": ""
+    }
+  ],
+  "66441124": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441124",
+      "notes": ""
+    }
+  ],
+  "66441125": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441125",
+      "notes": ""
+    }
+  ],
+  "66441126": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441126",
+      "notes": ""
+    }
+  ],
+  "66441127": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441127",
+      "notes": ""
+    }
+  ],
+  "66441128": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441128",
+      "notes": ""
+    }
+  ],
+  "66441129": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441129",
+      "notes": ""
+    }
+  ],
+  "66441130": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441130",
+      "notes": ""
+    }
+  ],
+  "66441131": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441131",
+      "notes": ""
+    }
+  ],
+  "66441132": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441132",
+      "notes": ""
+    }
+  ],
+  "66441134": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441134",
+      "notes": ""
+    }
+  ],
+  "66441135": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441135",
+      "notes": ""
+    }
+  ],
+  "66441139": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441139",
+      "notes": ""
+    }
+  ],
+  "66441200": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441200",
+      "notes": ""
+    }
+  ],
+  "66441210": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441210",
+      "notes": ""
+    }
+  ],
+  "66441220": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441220",
+      "notes": ""
+    }
+  ],
+  "66441230": [
+    {
+      "city_code": "01211",
+      "city_name": "網走市",
+      "mesh_code": "66441230",
+      "notes": ""
+    }
+  ]
+}

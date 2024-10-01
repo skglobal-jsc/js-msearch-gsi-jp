@@ -1,5 +1,5 @@
 import { getMuniMap, getMuniMapLocations } from './muni';
-import { latLonToAddressInfo, searchAddress, latLonToAddress } from './index';
+import { searchAddress, latLonToAddress, reverseGeocodeByLocal, reverseGeocodeByGsi } from './index';
 
 import * as fs from 'fs';
 
@@ -70,32 +70,31 @@ const run = async () => {
             wardName: '',
           };
         }
-        return Object.keys(wards)
-          .map((wardKey) => {
-            const ward = wards[wardKey];
-            return {
-              cityName: city.cityName,
-              isWard: true,
-              prefectureName: pref.prefName,
-              tagData: {
-                city: ward.bigCityCode,
-                prefecture: key,
-                ward: ward.cityCode,
-              },
-              wardName: ward.cityName,
-            };
-          })
-          // .concat({
-          //   cityName: city.cityName,
-          //   isWard: false,
-          //   prefectureName: pref.prefName,
-          //   tagData: {
-          //     city: city.cityCode,
-          //     prefecture: key,
-          //     ward: city.cityCode,
-          //   },
-          //   wardName: '',
-          // });
+        return Object.keys(wards).map((wardKey) => {
+          const ward = wards[wardKey];
+          return {
+            cityName: city.cityName,
+            isWard: true,
+            prefectureName: pref.prefName,
+            tagData: {
+              city: ward.bigCityCode,
+              prefecture: key,
+              ward: ward.cityCode,
+            },
+            wardName: ward.cityName,
+          };
+        });
+        // .concat({
+        //   cityName: city.cityName,
+        //   isWard: false,
+        //   prefectureName: pref.prefName,
+        //   tagData: {
+        //     city: city.cityCode,
+        //     prefecture: key,
+        //     ward: city.cityCode,
+        //   },
+        //   wardName: '',
+        // });
       });
     })
     .flat(2);
@@ -110,4 +109,25 @@ const run = async () => {
   // console.log(searchResults);
 };
 
-run();
+const test = async () => {
+  const lat = 43.332951;
+  const lon = 141.853986;
+  console.time("searchAddress");
+  const results = await reverseGeocodeByLocal(lat, lon);
+  console.log("results", results);
+  console.timeEnd("searchAddress");
+
+  console.time("searchAddress111");
+  const results111 = await reverseGeocodeByLocal(lat, lon);
+  console.log("results111", results111);
+  console.timeEnd("searchAddress111");
+
+  // === reverseGeocodeByGsi
+  console.time("reverseGeocodeByGsi");
+  const resultsGsi = await reverseGeocodeByGsi(lat, lon);
+  console.log("resultsGsi", resultsGsi);
+  console.timeEnd("reverseGeocodeByGsi");
+};
+
+// run();
+test();

@@ -1,7 +1,7 @@
 {
   "name": "@sk-global/js-msearch-gsi-jp",
   "description": "A client library for APIs that presented by Geospatial Information Authority of Japan",
-  "version": "1.1.12",
+  "version": "1.1.18",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -16,6 +16,7 @@
   },
   "scripts": {
     "dev": "ts-node ./src/local.ts",
+    "create-data": "ts-node ./src/create_data.ts",
     "build": "microbundle --define PKG_VERSION=$npm_package_version",
     "watch": "microbundle watch --define PKG_VERSION=$npm_package_version",
     "test": "jest --coverage",
@@ -48,7 +49,9 @@
   },
   "author": "SK-Global",
   "dependencies": {
-    "axios": "^1.7.3"
+    "axios": "^1.7.3",
+    "axios-cache-interceptor": "^1.6.0",
+    "csv-parser": "^3.0.0"
   },
   "repository": {
     "type": "git",
