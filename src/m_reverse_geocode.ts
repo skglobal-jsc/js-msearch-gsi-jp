@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
+import path from 'path';
 
 import { ReverseGeocodeResults } from './types';
 import { getMuniMap } from './muni';
@@ -9,7 +10,10 @@ const api = setupCache(
   axios.create({
     baseURL: 'https://mreversegeocoder.gsi.go.jp',
     timeout: 500,
-  })
+  }),
+  {
+    ttl: 1000 * 60 * 5 /* 5 minutes */,
+  }
 );
 /**
  * Reverse geocodes a given latitude and longitude using the mreversegeocoder API.
@@ -49,7 +53,8 @@ const reverseGeocodeByLocal = async (
 
   try {
     // Read the mesh data from the local file system using require
-    const meshData = require(`./data/mesh_data_${prefix}.json`);
+    const meshDataPath = path.join(__dirname, 'data', `mesh_data_${prefix}.json`);
+    const meshData = require(meshDataPath);
 
     // Get the data for the specific mesh code
     const meshArray = meshData[meshCode];
