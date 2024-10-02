@@ -1,5 +1,13 @@
 import { getMuniMap, getMuniMapLocations } from './muni';
-import { searchAddress, latLonToAddress, reverseGeocodeByLocal, reverseGeocodeByGsi } from './index';
+import {
+  searchAddress,
+  latLonToAddress,
+  reverseGeocodeByLocal,
+  reverseGeocodeByGsi,
+  getElevation,
+  getElevationFromGSI,
+  getElevationFromOpenAPI,
+} from './index';
 
 import * as fs from 'fs';
 
@@ -110,23 +118,36 @@ const run = async () => {
 };
 
 const test = async () => {
-  const lat = 43.332951;
-  const lon = 141.853986;
-  console.time("searchAddress");
+  const lat = 43.061434;
+  const lon = 141.353649;
+  console.time('searchAddress');
   const results = await reverseGeocodeByLocal(lat, lon);
-  console.log("results", results);
-  console.timeEnd("searchAddress");
-
-  console.time("searchAddress111");
-  const results111 = await reverseGeocodeByLocal(lat, lon);
-  console.log("results111", results111);
-  console.timeEnd("searchAddress111");
+  console.log('results', results);
+  console.timeEnd('searchAddress');
 
   // === reverseGeocodeByGsi
-  console.time("reverseGeocodeByGsi");
+  console.time('reverseGeocodeByGsi');
   const resultsGsi = await reverseGeocodeByGsi(lat, lon);
-  console.log("resultsGsi", resultsGsi);
-  console.timeEnd("reverseGeocodeByGsi");
+  console.log('resultsGsi', resultsGsi);
+  console.timeEnd('reverseGeocodeByGsi');
+
+  // === getElevation
+  console.time('getElevation');
+  const elevation = await getElevation(lat, lon);
+  console.log('elevation', elevation);
+  console.timeEnd('getElevation');
+
+  // === getElevationFromGSI
+  console.time('getElevationFromGSI');
+  const elevationGsi = await getElevationFromGSI(lat, lon);
+  console.log('elevationGsi', elevationGsi);
+  console.timeEnd('getElevationFromGSI');
+
+  // === getElevationFromOpenAPI
+  console.time('getElevationFromOpenAPI');
+  const elevationOpenAPI = await getElevationFromOpenAPI(lat, lon);
+  console.log('elevationOpenAPI', elevationOpenAPI);
+  console.timeEnd('getElevationFromOpenAPI');
 };
 
 // run();

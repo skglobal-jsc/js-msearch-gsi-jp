@@ -24,7 +24,11 @@ export function convertToTokyoCoordinates(
  *
  * @param Ntokyo - The northern coordinate in Tokyo.
  * @param Etokyo - The eastern coordinate in Tokyo.
- * @returns The calculated mesh code as a string.
+ * @returns An object containing the mesh code and its components:
+ * - `meshCode`: The full mesh code.
+ * - `meshCode12`: The first two digits of the mesh code.
+ * - `meshCode34`: The third and fourth digits of the mesh code.
+ * - `prefix`: The first four digits of the mesh code.
  */
 export function calculateMeshCode(Ntokyo: number, Etokyo: number): {
   meshCode: string;

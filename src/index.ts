@@ -2,7 +2,10 @@ import {
   getMuniMap,
   latLonToAddress,
   reverseGeocodeByLocal,
-  reverseGeocodeByGsi
+  reverseGeocodeByGsi,
+  getElevationFromOpenAPI,
+  getElevationFromGSI,
+  getElevation,
 } from './m_reverse_geocode';
 
 import { searchAddress } from './msearch';
@@ -12,5 +15,8 @@ export {
   getMuniMap,
   searchAddress,
   reverseGeocodeByLocal,
-  reverseGeocodeByGsi
+  reverseGeocodeByGsi,
+  getElevationFromOpenAPI,
+  getElevationFromGSI,
+  getElevation,
 };
