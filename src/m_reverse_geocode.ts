@@ -9,12 +9,21 @@ import { calculateMeshCode, convertToTokyoCoordinates } from './utils';
 const api = setupCache(
   axios.create({
     baseURL: 'https://mreversegeocoder.gsi.go.jp',
-    timeout: 500,
+    timeout: 2000,
   }),
   {
     ttl: 1000 * 60 * 60 * 24, // 24 hours
   }
 );
+
+api.interceptors.request.use((config) => {
+  const fullUrl = `${config.baseURL}${config.url}?${new URLSearchParams(
+    config.params
+  ).toString()}`;
+  console.log('Full URL:', fullUrl);
+  return config;
+});
+
 /**
  * Reverse geocodes a given latitude and longitude using the mreversegeocoder API.
  *
@@ -27,14 +36,14 @@ const reverseGeocodeByGsi = async (
   lon: number
 ): Promise<ReverseGeocodeResults | null> => {
   // get address from mreversegeocoder API.
-  const response = await api.get('reverse-geocoder/LonLatToAddress', {
+  const params = {
+    lat,
+    lon,
+  };
+  const response = await api.get('/reverse-geocoder/LonLatToAddress', {
     responseType: 'json',
-    params: {
-      lat,
-      lon,
-    },
+    params,
   });
-
   return response.data;
 };
 
@@ -85,8 +94,23 @@ const reverseGeocodeByLocal = async (
       return null;
     }
 
-    // return data same as GSI
-    const [meshCodeData] = meshArray;
+    // some mesh code has multiple data, so we need to find the correct one
+    // const meshCodeData = meshArray.find((data) => {
+    //   const [lat1, lon1, lat2, lon2] = data.bbox;
+    //   // Check if the Tokyo coordinates are within the bounding box
+    //   return Ntokyo >= lat1 && Ntokyo <= lat2 && Etokyo >= lon1 && Etokyo <= lon2;
+    // }) || meshArray[0];
+
+    // Acttually, we can use the smallest bbox to get the correct mesh code
+    // but we have not bbox data in the mesh data, so we can't use it.
+    // So, we just check flag smallest to get the correct mesh code
+    // the flag smallest is set to true if the data is the smallest bbox
+    // And this flag is set by the data creator.(correct by compare data from GSI)
+    const meshCodeData =
+      meshArray.find((data: any) => {
+        const { smallest } = data;
+        return smallest;
+      }) || meshArray[0];
     return {
       results: {
         muniCd: meshCodeData?.city_code,
@@ -113,20 +137,18 @@ const reverseGeocodeByLocal = async (
  * The commented-out code shows an alternative approach where it first tries to get the address
  * from a GSI (Geospatial Information) service and falls back to the local service in case of an error.
  */
-const latLonToAddress = async (
+const latLonToAddress = (
   lat: number,
   lon: number
 ): Promise<ReverseGeocodeResults | null> => {
-  // try to get address from gsi first
-  // if there is an error, try to get address from local
-  // try {
-  //   return await reverseGeocodeByGsi(lat, lon);
-  // } catch (e) {
-  //   console.log('Error getting address from GSI:', e);
-  //   return await reverseGeocodeByLocal(lat, lon);
-  // }
-
-  return await reverseGeocodeByLocal(lat, lon);
+  // try to get address from gsi local first
+  // if there is an error, try to get address from GSI
+  try {
+    return reverseGeocodeByLocal(lat, lon);
+  } catch (e) {
+    console.log('Error getting address from local:', e);
+    return reverseGeocodeByGsi(lat, lon);
+  }
 };
 
 const getElevationFromOpenAPI = async (
@@ -170,7 +192,7 @@ const getElevationFromGSI = async (
 }> => {
   // get elevation from GSI API
   // https://mreversegeocoder.gsi.go.jp/general/dem/scripts/getelevation.php?lon=141.3536498&lat=43.061434
-  const response = await api.get('general/dem/scripts/getelevation.php', {
+  const response = await api.get('/general/dem/scripts/getelevation.php', {
     responseType: 'json',
     params: {
       lat,

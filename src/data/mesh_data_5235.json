@@ -1444,7 +1444,8 @@
     {
       "city_code": "28102",
       "city_name": "神戸市灘区",
-      "mesh_code": "52350159"
+      "mesh_code": "52350159",
+      "smallest": true
     }
   ],
   "52350160": [
@@ -2189,7 +2190,8 @@
     {
       "city_code": "28206",
       "city_name": "芦屋市",
-      "mesh_code": "52350264"
+      "mesh_code": "52350264",
+      "smallest": true
     }
   ],
   "52350265": [
@@ -2986,7 +2988,8 @@
     {
       "city_code": "27113",
       "city_name": "大阪市西淀川区",
-      "mesh_code": "52350346"
+      "mesh_code": "52350346",
+      "smallest": true
     }
   ],
   "52350347": [
@@ -3586,7 +3589,8 @@
     {
       "city_code": "27128",
       "city_name": "大阪市中央区",
-      "mesh_code": "52350411"
+      "mesh_code": "52350411",
+      "smallest": true
     }
   ],
   "52350412": [
@@ -3926,7 +3930,8 @@
     {
       "city_code": "27127",
       "city_name": "大阪市北区",
-      "mesh_code": "52350441"
+      "mesh_code": "52350441",
+      "smallest": true
     }
   ],
   "52350442": [
@@ -4433,7 +4438,8 @@
     {
       "city_code": "27114",
       "city_name": "大阪市東淀川区",
-      "mesh_code": "52350482"
+      "mesh_code": "52350482",
+      "smallest": true
     },
     {
       "city_code": "27117",
@@ -9232,7 +9238,8 @@
     {
       "city_code": "28214",
       "city_name": "宝塚市",
-      "mesh_code": "52351259"
+      "mesh_code": "52351259",
+      "smallest": true
     }
   ],
   "52351260": [
@@ -10413,7 +10420,8 @@
     {
       "city_code": "27220",
       "city_name": "箕面市",
-      "mesh_code": "52351387"
+      "mesh_code": "52351387",
+      "smallest": true
     }
   ],
   "52351388": [
@@ -10480,7 +10488,8 @@
     {
       "city_code": "28217",
       "city_name": "川西市",
-      "mesh_code": "52351393"
+      "mesh_code": "52351393",
+      "smallest": true
     }
   ],
   "52351394": [
@@ -10551,7 +10560,8 @@
     {
       "city_code": "27205",
       "city_name": "吹田市",
-      "mesh_code": "52351401"
+      "mesh_code": "52351401",
+      "smallest": true
     }
   ],
   "52351402": [
@@ -12465,7 +12475,8 @@
     {
       "city_code": "26366",
       "city_name": "精華町",
-      "mesh_code": "52351603"
+      "mesh_code": "52351603",
+      "smallest": true
     }
   ],
   "52351604": [
@@ -17589,7 +17600,8 @@
     {
       "city_code": "28301",
       "city_name": "猪名川町",
-      "mesh_code": "52352370"
+      "mesh_code": "52352370",
+      "smallest": true
     }
   ],
   "52352371": [
@@ -19225,7 +19237,8 @@
     {
       "city_code": "26322",
       "city_name": "久御山町",
-      "mesh_code": "52352558"
+      "mesh_code": "52352558",
+      "smallest": true
     }
   ],
   "52352559": [
@@ -19394,7 +19407,8 @@
     {
       "city_code": "26303",
       "city_name": "大山崎町",
-      "mesh_code": "52352575"
+      "mesh_code": "52352575",
+      "smallest": true
     }
   ],
   "52352576": [

@@ -35751,7 +35751,8 @@
     {
       "city_code": "07502",
       "city_name": "玉川村",
-      "mesh_code": "55406342"
+      "mesh_code": "55406342",
+      "smallest": true
     }
   ],
   "55406343": [
@@ -41127,7 +41128,8 @@
     {
       "city_code": "07344",
       "city_name": "天栄村",
-      "mesh_code": "55407200"
+      "mesh_code": "55407200",
+      "smallest": true
     }
   ],
   "55407201": [
@@ -43887,7 +43889,8 @@
     {
       "city_code": "07522",
       "city_name": "小野町",
-      "mesh_code": "55407540"
+      "mesh_code": "55407540",
+      "smallest": true
     }
   ],
   "55407541": [

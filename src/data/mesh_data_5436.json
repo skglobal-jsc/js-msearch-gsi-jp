@@ -26872,7 +26872,8 @@
     {
       "city_code": "17324",
       "city_name": "川北町",
-      "mesh_code": "54365453"
+      "mesh_code": "54365453",
+      "smallest": true
     }
   ],
   "54365454": [
@@ -29683,7 +29684,8 @@
     {
       "city_code": "17212",
       "city_name": "野々市市",
-      "mesh_code": "54366419"
+      "mesh_code": "54366419",
+      "smallest": true
     }
   ],
   "54366420": [

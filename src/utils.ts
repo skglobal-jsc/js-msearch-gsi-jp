@@ -30,7 +30,10 @@ export function convertToTokyoCoordinates(
  * - `meshCode34`: The third and fourth digits of the mesh code.
  * - `prefix`: The first four digits of the mesh code.
  */
-export function calculateMeshCode(Ntokyo: number, Etokyo: number): {
+export function calculateMeshCode(
+  Ntokyo: number,
+  Etokyo: number
+): {
   meshCode: string;
   meshCode12: number;
   meshCode34: number;
@@ -56,5 +59,5 @@ export function calculateMeshCode(Ntokyo: number, Etokyo: number): {
     meshCode12: mesh12,
     meshCode34: mesh34,
     prefix,
-  }
+  };
 }

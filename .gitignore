@@ -97,3 +97,4 @@ node_modules
 .env
 log.txt
 data/code
+tmp

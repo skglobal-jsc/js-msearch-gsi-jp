@@ -27407,7 +27407,8 @@
     {
       "city_code": "39364",
       "city_name": "大川村",
-      "mesh_code": "50335337"
+      "mesh_code": "50335337",
+      "smallest": true
     }
   ],
   "50335338": [

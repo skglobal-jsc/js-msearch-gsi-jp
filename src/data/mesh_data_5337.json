@@ -11713,7 +11713,8 @@
     {
       "city_code": "20407",
       "city_name": "阿智村",
-      "mesh_code": "53371620"
+      "mesh_code": "53371620",
+      "smallest": true
     }
   ],
   "53371621": [
@@ -19335,7 +19336,8 @@
     {
       "city_code": "20416",
       "city_name": "豊丘村",
-      "mesh_code": "53372751"
+      "mesh_code": "53372751",
+      "smallest": true
     }
   ],
   "53372752": [
@@ -44944,7 +44946,8 @@
     {
       "city_code": "20385",
       "city_name": "南箕輪村",
-      "mesh_code": "53376748"
+      "mesh_code": "53376748",
+      "smallest": true
     }
   ],
   "53376749": [

@@ -8638,7 +8638,8 @@
       "city_code": "01425",
       "city_name": "上砂川町",
       "mesh_code": "65411779",
-      "notes": ""
+      "notes": "",
+      "smallest": true
     }
   ],
   "65411780": [

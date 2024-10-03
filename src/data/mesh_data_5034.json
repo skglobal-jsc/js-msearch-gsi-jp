@@ -1054,7 +1054,8 @@
     {
       "city_code": "39303",
       "city_name": "田野町",
-      "mesh_code": "50341000"
+      "mesh_code": "50341000",
+      "smallest": true
     }
   ],
   "50341001": [

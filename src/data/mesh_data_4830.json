@@ -14063,7 +14063,8 @@
     {
       "city_code": "43510",
       "city_name": "相良村",
-      "mesh_code": "48302674"
+      "mesh_code": "48302674",
+      "smallest": true
     }
   ],
   "48302675": [

@@ -1,3 +1,4 @@
+import * as csvParser from 'csv-parser';
 import { getMuniMap, getMuniMapLocations } from './muni';
 import {
   searchAddress,
@@ -118,8 +119,8 @@ const run = async () => {
 };
 
 const test = async () => {
-  const lat = 43.061434;
-  const lon = 141.353649;
+  const lat = 36.447501;
+  const lon = 139.009766;
   console.time('searchAddress');
   const results = await reverseGeocodeByLocal(lat, lon);
   console.log('results', results);
@@ -150,5 +151,129 @@ const test = async () => {
   console.timeEnd('getElevationFromOpenAPI');
 };
 
+// run all city of Japan for both reverseGeocodeByLocal and reverseGeocodeByGsi
+// compare the results and save to file
+const testAndCompare = async () => {
+  // first, read the cvs file from tmp/cites.csv
+  // convert to json
+  const convertCSVToJSON = async (filePath: string) => {
+    const results: any = {};
+    return new Promise((resolve, reject) => {
+      fs.createReadStream(filePath)
+        .pipe(
+          csvParser({
+            separator: ',',
+            headers: [
+              'citycode',
+              'prefname',
+              'citynNme1',
+              'citynNme2',
+              'lat',
+              'lng',
+            ],
+            skipLines: 1, // skip the header
+          })
+        )
+        .on('data', (row) => {
+          // the header are citycode,prefname,citynNme1,citynNme2, lat,lng
+          // first row is header
+          const { citycode, prefname, citynNme1, citynNme2, lat, lng } = row;
+          results[citycode] = {
+            citycode,
+            prefname,
+            citynNme1,
+            citynNme2,
+            lat,
+            lng,
+          };
+        })
+        .on('end', () => resolve(results))
+        .on('error', reject);
+    });
+  };
+  const results: any = await convertCSVToJSON('src/tmp/cities.csv');
+  // save to file
+  fs.writeFileSync('src/tmp/cities.json', JSON.stringify(results, null, 2));
+
+  // second, run the test
+  // every city in Japan call reverseGeocodeByLocal and reverseGeocodeByGsi and compare the results
+  // save to file
+  const resultsArrayResolved: any[] = [];
+  const values: any = Object.values(results).slice(0);
+  for (const element of values) {
+    console.log('Processing city:', element.citycode);
+    const { citycode, lat, lng } = element;
+    const latitude = parseFloat(lat);
+    const longitude = parseFloat(lng);
+    const [resultsLocal, resultsGsi] = await Promise.all([
+      reverseGeocodeByLocal(latitude, longitude),
+      reverseGeocodeByGsi(latitude, longitude),
+    ]);
+
+    // compare the muniCd of both results
+    const muniCdLocal = resultsLocal?.results.muniCd;
+    const muniCdGsi = resultsGsi?.results.muniCd;
+    const isDiff = muniCdLocal !== muniCdGsi;
+    resultsArrayResolved.push({
+      citycode,
+      lat,
+      lng,
+      resultsLocal,
+      resultsGsi,
+      isDiff,
+    });
+
+    // sleep for 1 second to avoid the rate limit
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+
+  const diffResults = resultsArrayResolved.filter((result) => result.isDiff);
+  console.log('Total diff:', diffResults.length);
+  fs.writeFileSync(
+    'src/tmp/cities-results.json',
+    JSON.stringify(resultsArrayResolved, null, 2)
+  );
+
+  await collectDiff();
+};
+
+const collectDiff = async () => {
+  // read the file 'src/tmp/cities-results.json' and collect the diff
+  const data = fs.readFileSync('src/tmp/cities-results.json', 'utf8');
+  const results = JSON.parse(data);
+  const diffResults = results.filter((result) => result.isDiff);
+  console.log('Total diff:', diffResults.length);
+  fs.writeFileSync(
+    'src/tmp/cities-results-diff.json',
+    JSON.stringify(diffResults, null, 2)
+  );
+};
+
+const correctData = async () => {
+  // use result from cities-results-diff.json to correct the data inside src/data/mesh_data_xxxx.json
+  // read the file 'src/tmp/cities-results-diff.json'
+  const data = fs.readFileSync('src/tmp/cities-results-diff.json', 'utf8');
+  const results = JSON.parse(data);
+  console.log('Total diff:', results.length);
+
+  // loop through the results and correct the data
+  for (const result of results) {
+    const { citycode, resultsLocal, resultsGsi } = result;
+    const {
+      results: { muniCd, mesh_code },
+    } = resultsLocal;
+
+    const {
+      results: { muniCd: muniCdGsi },
+    } = resultsGsi;
+
+    console.log('mesh_code:', mesh_code, 'City Code local:', muniCd, 'City Code GSI:', muniCdGsi);
+  }
+};
+
 // run();
 test();
+
+// testAndCompare();
+// collectDiff();
+// correctData();

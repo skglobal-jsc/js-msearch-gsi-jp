@@ -10873,7 +10873,8 @@
     {
       "city_code": "43507",
       "city_name": "水上村",
-      "mesh_code": "48313070"
+      "mesh_code": "48313070",
+      "smallest": true
     }
   ],
   "48313071": [

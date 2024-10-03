@@ -74,6 +74,37 @@ const main = async () => {
     }
   }
 
+  // fix the mesh data based on GSI's data
+  const gsiData = JSON.parse(
+    fs.readFileSync('./cities-results-diff.json', 'utf8')
+  );
+  const gsiDataMap = gsiData.reduce((acc: any, item: any) => {
+    const { resultsLocal, resultsGsi } = item;
+    const {
+      results: { mesh_code },
+    } = resultsLocal;
+    const {
+      results: { muniCd },
+    } = resultsGsi;
+    acc[mesh_code] = muniCd;
+    return acc;
+  }, {});
+
+  // write the corrected data to the finalData
+  Object.keys(finalData).forEach((meshCode) => {
+    if (gsiDataMap[meshCode]) {
+      const cityData = finalData[meshCode];
+      console.log('Correcting mesh code:', meshCode);
+      // find city data that has the same city code as the GSI data
+      const correctedCityData = cityData.find(
+        (data: any) => data.city_code === gsiDataMap[meshCode]
+      );
+      if (correctedCityData) {
+        correctedCityData.smallest = true;
+      }
+    }
+  });
+
   // Write the combined data to the output JSON file
   fs.writeFileSync(outputJsonFile, JSON.stringify(finalData, null, 2));
   console.log(`JSON file created: ${outputJsonFile}`);

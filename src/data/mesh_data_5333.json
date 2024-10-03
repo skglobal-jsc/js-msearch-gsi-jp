@@ -9041,7 +9041,8 @@
     {
       "city_code": "31384",
       "city_name": "日吉津村",
-      "mesh_code": "53331320"
+      "mesh_code": "53331320",
+      "smallest": true
     }
   ],
   "53331321": [

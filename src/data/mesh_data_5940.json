@@ -41773,7 +41773,8 @@
     {
       "city_code": "05363",
       "city_name": "八郎潟町",
-      "mesh_code": "59407036"
+      "mesh_code": "59407036",
+      "smallest": true
     }
   ],
   "59407037": [

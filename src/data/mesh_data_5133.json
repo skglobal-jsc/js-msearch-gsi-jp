@@ -31837,7 +31837,8 @@
     {
       "city_code": "33423",
       "city_name": "早島町",
-      "mesh_code": "51337616"
+      "mesh_code": "51337616",
+      "smallest": true
     }
   ],
   "51337617": [

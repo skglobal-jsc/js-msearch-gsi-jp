@@ -32082,7 +32082,8 @@
       "city_code": "01107",
       "city_name": "札幌市西区",
       "mesh_code": "64414284",
-      "notes": ""
+      "notes": "",
+      "smallest": true
     }
   ],
   "64414285": [
@@ -32158,7 +32159,8 @@
       "city_code": "01103",
       "city_name": "札幌市東区",
       "mesh_code": "64414289",
-      "notes": ""
+      "notes": "",
+      "smallest": true
     }
   ],
   "64414290": [
@@ -48246,7 +48248,8 @@
       "city_code": "01304",
       "city_name": "新篠津村",
       "mesh_code": "64416562",
-      "notes": ""
+      "notes": "",
+      "smallest": true
     }
   ],
   "64416563": [

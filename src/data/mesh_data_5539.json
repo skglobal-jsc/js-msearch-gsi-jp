@@ -259,7 +259,8 @@
     {
       "city_code": "10444",
       "city_name": "川場村",
-      "mesh_code": "55390028"
+      "mesh_code": "55390028",
+      "smallest": true
     }
   ],
   "55390029": [

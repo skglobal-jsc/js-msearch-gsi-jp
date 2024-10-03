@@ -15272,7 +15272,8 @@
     {
       "city_code": "19368",
       "city_name": "富士川町",
-      "mesh_code": "53382367"
+      "mesh_code": "53382367",
+      "smallest": true
     }
   ],
   "53382368": [
@@ -17609,7 +17610,8 @@
     {
       "city_code": "19423",
       "city_name": "西桂町",
-      "mesh_code": "53382628"
+      "mesh_code": "53382628",
+      "smallest": true
     }
   ],
   "53382629": [
@@ -22679,7 +22681,8 @@
     {
       "city_code": "19384",
       "city_name": "昭和町",
-      "mesh_code": "53383443"
+      "mesh_code": "53383443",
+      "smallest": true
     }
   ],
   "53383444": [
@@ -25098,7 +25101,8 @@
     {
       "city_code": "19206",
       "city_name": "大月市",
-      "mesh_code": "53383725"
+      "mesh_code": "53383725",
+      "smallest": true
     }
   ],
   "53383726": [
@@ -28231,7 +28235,8 @@
     {
       "city_code": "19210",
       "city_name": "甲斐市",
-      "mesh_code": "53384319"
+      "mesh_code": "53384319",
+      "smallest": true
     }
   ],
   "53384320": [
@@ -34641,7 +34646,8 @@
     {
       "city_code": "19209",
       "city_name": "北杜市",
-      "mesh_code": "53385324"
+      "mesh_code": "53385324",
+      "smallest": true
     }
   ],
   "53385325": [
