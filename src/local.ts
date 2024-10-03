@@ -119,8 +119,8 @@ const run = async () => {
 };
 
 const test = async () => {
-  const lat = 36.447501;
-  const lon = 139.009766;
+  const lat = 33.602643;
+  const lon = 131.175948;
   console.time('searchAddress');
   const results = await reverseGeocodeByLocal(lat, lon);
   console.log('results', results);
@@ -132,23 +132,23 @@ const test = async () => {
   console.log('resultsGsi', resultsGsi);
   console.timeEnd('reverseGeocodeByGsi');
 
-  // === getElevation
-  console.time('getElevation');
-  const elevation = await getElevation(lat, lon);
-  console.log('elevation', elevation);
-  console.timeEnd('getElevation');
+  // // === getElevation
+  // console.time('getElevation');
+  // const elevation = await getElevation(lat, lon);
+  // console.log('elevation', elevation);
+  // console.timeEnd('getElevation');
 
-  // === getElevationFromGSI
-  console.time('getElevationFromGSI');
-  const elevationGsi = await getElevationFromGSI(lat, lon);
-  console.log('elevationGsi', elevationGsi);
-  console.timeEnd('getElevationFromGSI');
+  // // === getElevationFromGSI
+  // console.time('getElevationFromGSI');
+  // const elevationGsi = await getElevationFromGSI(lat, lon);
+  // console.log('elevationGsi', elevationGsi);
+  // console.timeEnd('getElevationFromGSI');
 
-  // === getElevationFromOpenAPI
-  console.time('getElevationFromOpenAPI');
-  const elevationOpenAPI = await getElevationFromOpenAPI(lat, lon);
-  console.log('elevationOpenAPI', elevationOpenAPI);
-  console.timeEnd('getElevationFromOpenAPI');
+  // // === getElevationFromOpenAPI
+  // console.time('getElevationFromOpenAPI');
+  // const elevationOpenAPI = await getElevationFromOpenAPI(lat, lon);
+  // console.log('elevationOpenAPI', elevationOpenAPI);
+  // console.timeEnd('getElevationFromOpenAPI');
 };
 
 // run all city of Japan for both reverseGeocodeByLocal and reverseGeocodeByGsi
@@ -272,8 +272,8 @@ const correctData = async () => {
 };
 
 // run();
-test();
+// test();
 
-// testAndCompare();
+testAndCompare();
 // collectDiff();
 // correctData();

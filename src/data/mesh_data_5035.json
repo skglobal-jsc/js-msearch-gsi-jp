@@ -6665,8 +6665,7 @@
     {
       "city_code": "30422",
       "city_name": "太地町",
-      "mesh_code": "50353705",
-      "smallest": true
+      "mesh_code": "50353705"
     }
   ],
   "50353706": [
@@ -22284,8 +22283,7 @@
     {
       "city_code": "30382",
       "city_name": "日高町",
-      "mesh_code": "50357101",
-      "smallest": true
+      "mesh_code": "50357101"
     }
   ],
   "50357102": [

@@ -1846,8 +1846,7 @@
     {
       "city_code": "11349",
       "city_name": "ときがわ町",
-      "mesh_code": "54390204",
-      "smallest": true
+      "mesh_code": "54390204"
     }
   ],
   "54390205": [
@@ -5087,8 +5086,7 @@
     {
       "city_code": "11464",
       "city_name": "杉戸町",
-      "mesh_code": "54390529",
-      "smallest": true
+      "mesh_code": "54390529"
     }
   ],
   "54390530": [
@@ -34517,8 +34515,7 @@
     {
       "city_code": "10345",
       "city_name": "吉岡町",
-      "mesh_code": "54395031",
-      "smallest": true
+      "mesh_code": "54395031"
     }
   ],
   "54395032": [
@@ -47751,8 +47748,7 @@
     {
       "city_code": "10448",
       "city_name": "昭和村",
-      "mesh_code": "54397065",
-      "smallest": true
+      "mesh_code": "54397065"
     }
   ],
   "54397066": [

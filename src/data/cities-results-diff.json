@@ -1,38 +1,19 @@
 [
   {
-    "citycode": "103454",
-    "lat": "36.447501",
-    "lng": "139.009766",
+    "citycode": "103845",
+    "lat": "36.242954",
+    "lng": "138.921682",
     "resultsLocal": {
       "results": {
-        "muniCd": "10208",
-        "lv01Nm": "渋川市",
-        "mesh_code": "54395031"
+        "muniCd": "10210",
+        "lv01Nm": "富岡市",
+        "mesh_code": "54382793"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "10345",
-        "lv01Nm": "大字下野田"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "104442",
-    "lat": "36.694669",
-    "lng": "139.106534",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "10206",
-        "lv01Nm": "沼田市",
-        "mesh_code": "55390028"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "10444",
-        "lv01Nm": "大字谷地"
+        "muniCd": "10384",
+        "lv01Nm": "大字小幡"
       }
     },
     "isDiff": true
@@ -52,6 +33,25 @@
       "results": {
         "muniCd": "10448",
         "lv01Nm": "大字糸井"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "111058",
+    "lat": "35.884096",
+    "lng": "139.626102",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11103",
+        "lv01Nm": "さいたま市大宮区",
+        "mesh_code": "53396560"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11105",
+        "lv01Nm": "下落合五丁目"
       }
     },
     "isDiff": true
@@ -95,6 +95,25 @@
     "isDiff": true
   },
   {
+    "citycode": "112232",
+    "lat": "35.825634",
+    "lng": "139.679708",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11108",
+        "lv01Nm": "さいたま市南区",
+        "mesh_code": "53395594"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11223",
+        "lv01Nm": "中央五丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
     "citycode": "112241",
     "lat": "35.817616",
     "lng": "139.677892",
@@ -102,13 +121,32 @@
       "results": {
         "muniCd": "11223",
         "lv01Nm": "蕨市",
-        "mesh_code": "53395574"
+        "mesh_code": "53395584"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "11224",
         "lv01Nm": "上戸田一丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "112259",
+    "lat": "35.835766",
+    "lng": "139.391058",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11215",
+        "lv01Nm": "狭山市",
+        "mesh_code": "53396301"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11225",
+        "lv01Nm": "豊岡一丁目"
       }
     },
     "isDiff": true
@@ -128,6 +166,44 @@
       "results": {
         "muniCd": "11229",
         "lv01Nm": "広沢"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "112305",
+    "lat": "35.793511",
+    "lng": "139.565369",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11227",
+        "lv01Nm": "朝霞市",
+        "mesh_code": "53395455"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11230",
+        "lv01Nm": "野火止一丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "112330",
+    "lat": "36.026768",
+    "lng": "139.530211",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11217",
+        "lv01Nm": "鴻巣市",
+        "mesh_code": "54390432"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11233",
+        "lv01Nm": "本町一丁目"
       }
     },
     "isDiff": true
@@ -171,25 +247,6 @@
     "isDiff": true
   },
   {
-    "citycode": "113018",
-    "lat": "36.000112",
-    "lng": "139.624185",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "11238",
-        "lv01Nm": "蓮田市",
-        "mesh_code": "53397590"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "11301",
-        "lv01Nm": "中央四丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "113247",
     "lat": "35.828367",
     "lng": "139.526432",
@@ -209,25 +266,6 @@
     "isDiff": true
   },
   {
-    "citycode": "113492",
-    "lat": "36.008620",
-    "lng": "139.296844",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "11348",
-        "lv01Nm": "鳩山町",
-        "mesh_code": "54390204"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "11349",
-        "lv01Nm": "大字玉川"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "114642",
     "lat": "36.025765",
     "lng": "139.736709",
@@ -235,13 +273,32 @@
       "results": {
         "muniCd": "11442",
         "lv01Nm": "宮代町",
-        "mesh_code": "54390529"
+        "mesh_code": "54390538"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "11464",
         "lv01Nm": "清地二丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "114651",
+    "lat": "35.925774",
+    "lng": "139.815178",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "11222",
+        "lv01Nm": "越谷市",
+        "mesh_code": "53397615"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "11465",
+        "lv01Nm": "大字松伏"
       }
     },
     "isDiff": true
@@ -285,58 +342,20 @@
     "isDiff": true
   },
   {
-    "citycode": "122343",
-    "lat": "35.042991",
-    "lng": "139.840128",
+    "citycode": "131024",
+    "lat": "35.670651",
+    "lng": "139.771861",
     "resultsLocal": {
       "results": {
-        "muniCd": "12205",
-        "lv01Nm": "館山市",
-        "mesh_code": "52394647"
+        "muniCd": "13101",
+        "lv01Nm": "千代田区",
+        "mesh_code": "53394601"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "12234",
-        "lv01Nm": "富浦町青木"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "122378",
-    "lat": "35.602964",
-    "lng": "140.413506",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "12213",
-        "lv01Nm": "東金市",
-        "mesh_code": "53403313"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "12237",
-        "lv01Nm": "殿台"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "124630",
-    "lat": "35.111159",
-    "lng": "139.835509",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "12234",
-        "lv01Nm": "南房総市",
-        "mesh_code": "52395627"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "12463",
-        "lv01Nm": "下佐久間"
+        "muniCd": "13102",
+        "lv01Nm": "築地一丁目"
       }
     },
     "isDiff": true
@@ -380,6 +399,25 @@
     "isDiff": true
   },
   {
+    "citycode": "131075",
+    "lat": "35.710722",
+    "lng": "139.801497",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "13106",
+        "lv01Nm": "台東区",
+        "mesh_code": "53394654"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "13107",
+        "lv01Nm": "吾妻橋一丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
     "citycode": "131130",
     "lat": "35.661777",
     "lng": "139.704051",
@@ -406,7 +444,7 @@
       "results": {
         "muniCd": "13105",
         "lv01Nm": "文京区",
-        "mesh_code": "53394567"
+        "mesh_code": "53394577"
       }
     },
     "resultsGsi": {
@@ -418,77 +456,20 @@
     "isDiff": true
   },
   {
-    "citycode": "131172",
-    "lat": "35.752804",
-    "lng": "139.733481",
+    "citycode": "132039",
+    "lat": "35.717784",
+    "lng": "139.566260",
     "resultsLocal": {
-      "results": {
-        "muniCd": "13116",
-        "lv01Nm": "豊島区",
-        "mesh_code": "53394598"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "13117",
-        "lv01Nm": "王子本町一丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "131181",
-    "lat": "35.736080",
-    "lng": "139.783369",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "13106",
-        "lv01Nm": "台東区",
-        "mesh_code": "53394672"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "13118",
-        "lv01Nm": "荒川二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "131199",
-    "lat": "35.751165",
-    "lng": "139.709244",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "13116",
-        "lv01Nm": "豊島区",
-        "mesh_code": "53394596"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "13119",
-        "lv01Nm": "板橋二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "131202",
-    "lat": "35.735623",
-    "lng": "139.651658",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "13114",
-        "lv01Nm": "中野区",
-        "mesh_code": "53394572"
-      }
-    },
-    "resultsGsi": {
       "results": {
         "muniCd": "13120",
-        "lv01Nm": "豊玉北六丁目"
+        "lv01Nm": "練馬区",
+        "mesh_code": "53394465"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "13203",
+        "lv01Nm": "緑町二丁目"
       }
     },
     "isDiff": true
@@ -513,58 +494,39 @@
     "isDiff": true
   },
   {
-    "citycode": "132292",
-    "lat": "35.725496",
-    "lng": "139.538156",
+    "citycode": "132144",
+    "lat": "35.710335",
+    "lng": "139.463191",
     "resultsLocal": {
       "results": {
-        "muniCd": "13203",
-        "lv01Nm": "武蔵野市",
-        "mesh_code": "53394463"
+        "muniCd": "13211",
+        "lv01Nm": "小平市",
+        "mesh_code": "53394357"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "13229",
-        "lv01Nm": "南町五丁目"
+        "muniCd": "13214",
+        "lv01Nm": "戸倉一丁目"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "133051",
-    "lat": "35.742142",
-    "lng": "139.257444",
+    "citycode": "132195",
+    "lat": "35.634912",
+    "lng": "139.578733",
     "resultsLocal": {
       "results": {
-        "muniCd": "13228",
-        "lv01Nm": "あきる野市",
-        "mesh_code": "53394280"
+        "muniCd": "13112",
+        "lv01Nm": "世田谷区",
+        "mesh_code": "53393466"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "13305",
-        "lv01Nm": "大字平井"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "141097",
-    "lat": "35.519083",
-    "lng": "139.633024",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "14101",
-        "lv01Nm": "横浜市鶴見区",
-        "mesh_code": "53392510"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "14109",
-        "lv01Nm": "大豆戸町"
+        "muniCd": "13219",
+        "lv01Nm": "和泉本町一丁目"
       }
     },
     "isDiff": true
@@ -577,70 +539,13 @@
       "results": {
         "muniCd": "14107",
         "lv01Nm": "横浜市磯子区",
-        "mesh_code": "53390477"
+        "mesh_code": "53390487"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "14111",
         "lv01Nm": "港南中央通"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "141143",
-    "lat": "35.466026",
-    "lng": "139.498860",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "14112",
-        "lv01Nm": "横浜市旭区",
-        "mesh_code": "53391450"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "14114",
-        "lv01Nm": "二ツ橋町"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "141321",
-    "lat": "35.544293",
-    "lng": "139.686772",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "14131",
-        "lv01Nm": "川崎市川崎区",
-        "mesh_code": "53392545"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "14132",
-        "lv01Nm": "戸手本町一丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "143626",
-    "lat": "35.326674",
-    "lng": "139.156577",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "14206",
-        "lv01Nm": "小田原市",
-        "mesh_code": "52397182"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "14362",
-        "lv01Nm": "金子"
       }
     },
     "isDiff": true
@@ -665,33 +570,14 @@
     "isDiff": true
   },
   {
-    "citycode": "143642",
-    "lat": "35.360605",
-    "lng": "139.083831",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "14217",
-        "lv01Nm": "南足柄市",
-        "mesh_code": "53390026"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "14364",
-        "lv01Nm": "山北"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "143669",
     "lat": "35.336427",
     "lng": "139.123183",
     "resultsLocal": {
       "results": {
-        "muniCd": "14362",
-        "lv01Nm": "大井町",
-        "mesh_code": "52397190"
+        "muniCd": "14217",
+        "lv01Nm": "南足柄市",
+        "mesh_code": "53390009"
       }
     },
     "resultsGsi": {
@@ -779,77 +665,20 @@
     "isDiff": true
   },
   {
-    "citycode": "172120",
-    "lat": "36.519704",
-    "lng": "136.609971",
+    "citycode": "183229",
+    "lat": "36.092256",
+    "lng": "136.298706",
     "resultsLocal": {
       "results": {
-        "muniCd": "17201",
-        "lv01Nm": "金沢市",
-        "mesh_code": "54366419"
+        "muniCd": "18201",
+        "lv01Nm": "福井市",
+        "mesh_code": "54361213"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "17212",
-        "lv01Nm": "三納一丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "173240",
-    "lat": "36.468630",
-    "lng": "136.542304",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "17211",
-        "lv01Nm": "能美市",
-        "mesh_code": "54365453"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "17324",
-        "lv01Nm": "字壱ツ屋"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "192066",
-    "lat": "35.610485",
-    "lng": "138.940028",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "19204",
-        "lv01Nm": "都留市",
-        "mesh_code": "53383725"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "19206",
-        "lv01Nm": "大月二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "192091",
-    "lat": "35.776530",
-    "lng": "138.423781",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "19207",
-        "lv01Nm": "韮崎市",
-        "mesh_code": "53385324"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "19209",
-        "lv01Nm": "須玉町大豆生田"
+        "muniCd": "18322",
+        "lv01Nm": "松岡春日一丁目"
       }
     },
     "isDiff": true
@@ -860,9 +689,9 @@
     "lng": "138.487257",
     "resultsLocal": {
       "results": {
-        "muniCd": "19208",
-        "lv01Nm": "南アルプス市",
-        "mesh_code": "53384319"
+        "muniCd": "19207",
+        "lv01Nm": "韮崎市",
+        "mesh_code": "53384328"
       }
     },
     "resultsGsi": {
@@ -874,20 +703,20 @@
     "isDiff": true
   },
   {
-    "citycode": "193682",
-    "lat": "35.561156",
-    "lng": "138.461384",
+    "citycode": "193658",
+    "lat": "35.467494",
+    "lng": "138.442460",
     "resultsLocal": {
       "results": {
         "muniCd": "19346",
         "lv01Nm": "市川三郷町",
-        "mesh_code": "53382367"
+        "mesh_code": "53381365"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "19368",
-        "lv01Nm": "天神中條"
+        "muniCd": "19365",
+        "lv01Nm": "切石"
       }
     },
     "isDiff": true
@@ -898,9 +727,9 @@
     "lng": "138.535142",
     "resultsLocal": {
       "results": {
-        "muniCd": "19201",
-        "lv01Nm": "甲府市",
-        "mesh_code": "53383443"
+        "muniCd": "19210",
+        "lv01Nm": "甲斐市",
+        "mesh_code": "53383452"
       }
     },
     "resultsGsi": {
@@ -917,9 +746,9 @@
     "lng": "138.846891",
     "resultsLocal": {
       "results": {
-        "muniCd": "19204",
-        "lv01Nm": "都留市",
-        "mesh_code": "53382628"
+        "muniCd": "19202",
+        "lv01Nm": "富士吉田市",
+        "mesh_code": "53382627"
       }
     },
     "resultsGsi": {
@@ -931,20 +760,20 @@
     "isDiff": true
   },
   {
-    "citycode": "203611",
-    "lat": "36.069559",
-    "lng": "138.080170",
+    "citycode": "202185",
+    "lat": "36.533897",
+    "lng": "138.120108",
     "resultsLocal": {
       "results": {
-        "muniCd": "20204",
-        "lv01Nm": "岡谷市",
-        "mesh_code": "54380076"
+        "muniCd": "20201",
+        "lv01Nm": "長野市",
+        "mesh_code": "54386049"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "20361",
-        "lv01Nm": "－"
+        "muniCd": "20218",
+        "lv01Nm": "大字粟佐"
       }
     },
     "isDiff": true
@@ -969,20 +798,39 @@
     "isDiff": true
   },
   {
-    "citycode": "204072",
-    "lat": "35.443769",
-    "lng": "137.747505",
+    "citycode": "203882",
+    "lat": "35.768904",
+    "lng": "137.944307",
     "resultsLocal": {
       "results": {
-        "muniCd": "20205",
-        "lv01Nm": "飯田市",
-        "mesh_code": "53371620"
+        "muniCd": "20209",
+        "lv01Nm": "伊那市",
+        "mesh_code": "53375725"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "20407",
-        "lv01Nm": "駒場"
+        "muniCd": "20388",
+        "lv01Nm": "－"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "204153",
+    "lat": "35.513682",
+    "lng": "137.873700",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "20205",
+        "lv01Nm": "飯田市",
+        "mesh_code": "53372619"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "20415",
+        "lv01Nm": "－"
       }
     },
     "isDiff": true
@@ -995,7 +843,7 @@
       "results": {
         "muniCd": "20403",
         "lv01Nm": "高森町",
-        "mesh_code": "53372751"
+        "mesh_code": "53372761"
       }
     },
     "resultsGsi": {
@@ -1007,20 +855,20 @@
     "isDiff": true
   },
   {
-    "citycode": "212172",
-    "lat": "36.238124",
-    "lng": "137.186317",
+    "citycode": "205621",
+    "lat": "36.858406",
+    "lng": "138.406829",
     "resultsLocal": {
       "results": {
-        "muniCd": "21203",
-        "lv01Nm": "高山市",
-        "mesh_code": "54372185"
+        "muniCd": "20213",
+        "lv01Nm": "飯山市",
+        "mesh_code": "55382332"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "21217",
-        "lv01Nm": "古川町本町"
+        "muniCd": "20562",
+        "lv01Nm": "大字往郷"
       }
     },
     "isDiff": true
@@ -1052,7 +900,7 @@
       "results": {
         "muniCd": "23203",
         "lv01Nm": "一宮市",
-        "mesh_code": "53360631"
+        "mesh_code": "53360641"
       }
     },
     "resultsGsi": {
@@ -1064,77 +912,20 @@
     "isDiff": true
   },
   {
-    "citycode": "214043",
-    "lat": "35.442259",
-    "lng": "136.572926",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "21381",
-        "lv01Nm": "神戸町",
-        "mesh_code": "53361426"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "21404",
-        "lv01Nm": "六之井"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "214213",
     "lat": "35.436948",
     "lng": "136.685967",
     "resultsLocal": {
       "results": {
-        "muniCd": "21201",
-        "lv01Nm": "岐阜市",
-        "mesh_code": "53361525"
+        "muniCd": "21218",
+        "lv01Nm": "本巣市",
+        "mesh_code": "53361524"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "21421",
         "lv01Nm": "北方"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "215015",
-    "lat": "35.426662",
-    "lng": "136.985459",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "23215",
-        "lv01Nm": "犬山市",
-        "mesh_code": "53361709"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "21501",
-        "lv01Nm": "取組"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "215023",
-    "lat": "35.484883",
-    "lng": "136.979824",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "21211",
-        "lv01Nm": "美濃加茂市",
-        "mesh_code": "53361778"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "21502",
-        "lv01Nm": "滝田"
       }
     },
     "isDiff": true
@@ -1147,7 +938,7 @@
       "results": {
         "muniCd": "22131",
         "lv01Nm": "浜松市中区",
-        "mesh_code": "52370548"
+        "mesh_code": "52370558"
       }
     },
     "resultsGsi": {
@@ -1185,7 +976,7 @@
       "results": {
         "muniCd": "22133",
         "lv01Nm": "浜松市西区",
-        "mesh_code": "52370521"
+        "mesh_code": "52370531"
       }
     },
     "resultsGsi": {
@@ -1204,7 +995,7 @@
       "results": {
         "muniCd": "22134",
         "lv01Nm": "浜松市南区",
-        "mesh_code": "51377690"
+        "mesh_code": "52370600"
       }
     },
     "resultsGsi": {
@@ -1242,7 +1033,7 @@
       "results": {
         "muniCd": "22136",
         "lv01Nm": "浜松市浜北区",
-        "mesh_code": "52371643"
+        "mesh_code": "52371653"
       }
     },
     "resultsGsi": {
@@ -1278,9 +1069,9 @@
     "lng": "138.897178",
     "resultsLocal": {
       "results": {
-        "muniCd": "22206",
-        "lv01Nm": "三島市",
-        "mesh_code": "52385762"
+        "muniCd": "22203",
+        "lv01Nm": "沼津市",
+        "mesh_code": "52385761"
       }
     },
     "resultsGsi": {
@@ -1311,25 +1102,6 @@
     "isDiff": true
   },
   {
-    "citycode": "231037",
-    "lat": "35.194206",
-    "lng": "136.911519",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "23102",
-        "lv01Nm": "名古屋市東区",
-        "mesh_code": "52366723"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "23103",
-        "lv01Nm": "清水四丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "231045",
     "lat": "35.189117",
     "lng": "136.890033",
@@ -1354,9 +1126,9 @@
     "lng": "136.910251",
     "resultsLocal": {
       "results": {
-        "muniCd": "23101",
-        "lv01Nm": "名古屋市千種区",
-        "mesh_code": "52365793"
+        "muniCd": "23102",
+        "lv01Nm": "名古屋市東区",
+        "mesh_code": "52366702"
       }
     },
     "resultsGsi": {
@@ -1368,20 +1140,20 @@
     "isDiff": true
   },
   {
-    "citycode": "231096",
-    "lat": "35.128545",
-    "lng": "136.910280",
+    "citycode": "231070",
+    "lat": "35.150199",
+    "lng": "136.934124",
     "resultsLocal": {
       "results": {
-        "muniCd": "23108",
-        "lv01Nm": "名古屋市瑞穂区",
-        "mesh_code": "52365753"
+        "muniCd": "23101",
+        "lv01Nm": "名古屋市千種区",
+        "mesh_code": "52365784"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "23109",
-        "lv01Nm": "神宮三丁目"
+        "muniCd": "23107",
+        "lv01Nm": "阿由知通三丁目"
       }
     },
     "isDiff": true
@@ -1406,25 +1178,6 @@
     "isDiff": true
   },
   {
-    "citycode": "232351",
-    "lat": "35.110018",
-    "lng": "136.724739",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "24303",
-        "lv01Nm": "木曽岬町",
-        "mesh_code": "52365528"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "23235",
-        "lv01Nm": "前ケ須町"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "232378",
     "lat": "35.170304",
     "lng": "136.800830",
@@ -1439,6 +1192,25 @@
       "results": {
         "muniCd": "23237",
         "lv01Nm": "七宝町桂"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "232386",
+    "lat": "35.184126",
+    "lng": "137.048762",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "23226",
+        "lv01Nm": "尾張旭市",
+        "mesh_code": "52376023"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "23238",
+        "lv01Nm": "岩作城の内"
       }
     },
     "isDiff": true
@@ -1468,9 +1240,9 @@
     "lng": "136.912006",
     "resultsLocal": {
       "results": {
-        "muniCd": "23103",
-        "lv01Nm": "名古屋市北区",
-        "mesh_code": "52366793"
+        "muniCd": "23219",
+        "lv01Nm": "小牧市",
+        "mesh_code": "52367702"
       }
     },
     "resultsGsi": {
@@ -1487,9 +1259,9 @@
     "lng": "136.913079",
     "resultsLocal": {
       "results": {
-        "muniCd": "23361",
-        "lv01Nm": "大口町",
-        "mesh_code": "53360723"
+        "muniCd": "23215",
+        "lv01Nm": "犬山市",
+        "mesh_code": "53360733"
       }
     },
     "resultsGsi": {
@@ -1506,9 +1278,9 @@
     "lng": "136.820095",
     "resultsLocal": {
       "results": {
-        "muniCd": "23110",
-        "lv01Nm": "名古屋市中川区",
-        "mesh_code": "52366605"
+        "muniCd": "23237",
+        "lv01Nm": "あま市",
+        "mesh_code": "52366615"
       }
     },
     "resultsGsi": {
@@ -1520,58 +1292,20 @@
     "isDiff": true
   },
   {
-    "citycode": "234257",
-    "lat": "35.132331",
-    "lng": "136.786746",
+    "citycode": "243442",
+    "lat": "35.023009",
+    "lng": "136.673865",
     "resultsLocal": {
       "results": {
-        "muniCd": "23110",
-        "lv01Nm": "名古屋市中川区",
-        "mesh_code": "52365653"
+        "muniCd": "24202",
+        "lv01Nm": "四日市市",
+        "mesh_code": "52364523"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "23425",
-        "lv01Nm": "学戸三丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "243035",
-    "lat": "35.075980",
-    "lng": "136.731328",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "24205",
-        "lv01Nm": "桑名市",
-        "mesh_code": "52364588"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "24303",
-        "lv01Nm": "大字西対海地"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "244708",
-    "lat": "34.438923",
-    "lng": "136.622466",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "24203",
-        "lv01Nm": "伊勢市",
-        "mesh_code": "51365520"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "24470",
-        "lv01Nm": "棚橋"
+        "muniCd": "24344",
+        "lv01Nm": "大字豊田一色"
       }
     },
     "isDiff": true
@@ -1596,39 +1330,77 @@
     "isDiff": true
   },
   {
-    "citycode": "245623",
-    "lat": "33.733773",
-    "lng": "136.009670",
+    "citycode": "261041",
+    "lat": "35.010425",
+    "lng": "135.751411",
     "resultsLocal": {
       "results": {
-        "muniCd": "30207",
-        "lv01Nm": "新宮市",
-        "mesh_code": "50364070"
+        "muniCd": "26102",
+        "lv01Nm": "京都市上京区",
+        "mesh_code": "52354610"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "24562",
-        "lv01Nm": "鵜殿"
+        "muniCd": "26104",
+        "lv01Nm": "上巴町"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "254410",
-    "lat": "35.200343",
-    "lng": "136.229893",
+    "citycode": "261076",
+    "lat": "34.976661",
+    "lng": "135.746495",
     "resultsLocal": {
       "results": {
-        "muniCd": "25425",
-        "lv01Nm": "愛荘町",
-        "mesh_code": "52366138"
+        "muniCd": "26106",
+        "lv01Nm": "京都市下京区",
+        "mesh_code": "52353579"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "25441",
-        "lv01Nm": "大字石畑"
+        "muniCd": "26107",
+        "lv01Nm": "西九条南田町"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "261084",
+    "lat": "35.010133",
+    "lng": "135.716078",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "26104",
+        "lv01Nm": "京都市中京区",
+        "mesh_code": "52354517"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "26108",
+        "lv01Nm": "太秦下刑部町"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "262081",
+    "lat": "34.948736",
+    "lng": "135.698288",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "26111",
+        "lv01Nm": "京都市西京区",
+        "mesh_code": "52353535"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "26208",
+        "lv01Nm": "寺戸町"
       }
     },
     "isDiff": true
@@ -1639,9 +1411,9 @@
     "lng": "135.688476",
     "resultsLocal": {
       "results": {
-        "muniCd": "26210",
-        "lv01Nm": "八幡市",
-        "mesh_code": "52352575"
+        "muniCd": "26209",
+        "lv01Nm": "長岡京市",
+        "mesh_code": "52352585"
       }
     },
     "resultsGsi": {
@@ -1672,20 +1444,20 @@
     "isDiff": true
   },
   {
-    "citycode": "263664",
-    "lat": "34.760856",
-    "lng": "135.785833",
+    "citycode": "264636",
+    "lat": "35.675146",
+    "lng": "135.272639",
     "resultsLocal": {
       "results": {
-        "muniCd": "26214",
-        "lv01Nm": "木津川市",
-        "mesh_code": "52351603"
+        "muniCd": "26205",
+        "lv01Nm": "宮津市",
+        "mesh_code": "53354211"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "26366",
-        "lv01Nm": "大字南稲八妻"
+        "muniCd": "26463",
+        "lv01Nm": "字日出"
       }
     },
     "isDiff": true
@@ -1710,39 +1482,39 @@
     "isDiff": true
   },
   {
-    "citycode": "271110",
-    "lat": "34.659444",
-    "lng": "135.499630",
+    "citycode": "271063",
+    "lat": "34.676231",
+    "lng": "135.486059",
     "resultsLocal": {
       "results": {
-        "muniCd": "27109",
-        "lv01Nm": "大阪市天王寺区",
-        "mesh_code": "51357480"
+        "muniCd": "27103",
+        "lv01Nm": "大阪市福島区",
+        "mesh_code": "52350318"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "27111",
-        "lv01Nm": "敷津東一丁目"
+        "muniCd": "27106",
+        "lv01Nm": "新町四丁目"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "271136",
-    "lat": "34.711348",
-    "lng": "135.456202",
+    "citycode": "271080",
+    "lat": "34.650403",
+    "lng": "135.472700",
     "resultsLocal": {
       "results": {
-        "muniCd": "27103",
-        "lv01Nm": "大阪市福島区",
-        "mesh_code": "52350346"
+        "muniCd": "27107",
+        "lv01Nm": "大阪市港区",
+        "mesh_code": "51357387"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "27113",
-        "lv01Nm": "御幣島一丁目"
+        "muniCd": "27108",
+        "lv01Nm": "千島二丁目"
       }
     },
     "isDiff": true
@@ -1786,20 +1558,20 @@
     "isDiff": true
   },
   {
-    "citycode": "271225",
-    "lat": "34.634872",
-    "lng": "135.494373",
+    "citycode": "271187",
+    "lat": "34.701890",
+    "lng": "135.545973",
     "resultsLocal": {
       "results": {
-        "muniCd": "27119",
-        "lv01Nm": "大阪市阿倍野区",
-        "mesh_code": "51357359"
+        "muniCd": "27102",
+        "lv01Nm": "大阪市都島区",
+        "mesh_code": "52350443"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "27122",
-        "lv01Nm": "岸里一丁目"
+        "muniCd": "27118",
+        "lv01Nm": "中央三丁目"
       }
     },
     "isDiff": true
@@ -1824,44 +1596,6 @@
     "isDiff": true
   },
   {
-    "citycode": "271276",
-    "lat": "34.705362",
-    "lng": "135.510025",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "27102",
-        "lv01Nm": "大阪市都島区",
-        "mesh_code": "52350441"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "27127",
-        "lv01Nm": "扇町二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "271284",
-    "lat": "34.681261",
-    "lng": "135.509801",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "27109",
-        "lv01Nm": "大阪市天王寺区",
-        "mesh_code": "52350411"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "27128",
-        "lv01Nm": "久太郎町一丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "271446",
     "lat": "34.534999",
     "lng": "135.463972",
@@ -1869,7 +1603,7 @@
       "results": {
         "muniCd": "27142",
         "lv01Nm": "堺市中区",
-        "mesh_code": "51356337"
+        "mesh_code": "51356347"
       }
     },
     "resultsGsi": {
@@ -1881,39 +1615,58 @@
     "isDiff": true
   },
   {
-    "citycode": "272051",
-    "lat": "34.759453",
-    "lng": "135.516860",
+    "citycode": "272191",
+    "lat": "34.483527",
+    "lng": "135.423557",
     "resultsLocal": {
       "results": {
-        "muniCd": "27114",
-        "lv01Nm": "大阪市東淀川区",
-        "mesh_code": "52351401"
+        "muniCd": "27206",
+        "lv01Nm": "泉大津市",
+        "mesh_code": "51355383"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "27205",
-        "lv01Nm": "泉町一丁目"
+        "muniCd": "27219",
+        "lv01Nm": "府中町二丁目"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "272205",
-    "lat": "34.826930",
-    "lng": "135.470463",
+    "citycode": "272230",
+    "lat": "34.739542",
+    "lng": "135.586890",
     "resultsLocal": {
       "results": {
-        "muniCd": "27203",
-        "lv01Nm": "豊中市",
-        "mesh_code": "52351387"
+        "muniCd": "27209",
+        "lv01Nm": "守口市",
+        "mesh_code": "52350486"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "27220",
-        "lv01Nm": "西小路四丁目"
+        "muniCd": "27223",
+        "lv01Nm": "中町"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "272264",
+    "lat": "34.574277",
+    "lng": "135.597474",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "27222",
+        "lv01Nm": "羽曳野市",
+        "mesh_code": "51356487"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "27226",
+        "lv01Nm": "岡一丁目"
       }
     },
     "isDiff": true
@@ -1938,6 +1691,25 @@
     "isDiff": true
   },
   {
+    "citycode": "272329",
+    "lat": "34.359583",
+    "lng": "135.239670",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "27228",
+        "lv01Nm": "泉南市",
+        "mesh_code": "51354139"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "27232",
+        "lv01Nm": "尾崎町"
+      }
+    },
+    "isDiff": true
+  },
+  {
     "citycode": "273414",
     "lat": "34.487093",
     "lng": "135.401323",
@@ -1957,6 +1729,25 @@
     "isDiff": true
   },
   {
+    "citycode": "273619",
+    "lat": "34.401283",
+    "lng": "135.355785",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "27213",
+        "lv01Nm": "泉佐野市",
+        "mesh_code": "51354288"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "27361",
+        "lv01Nm": "野田一丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
     "citycode": "273627",
     "lat": "34.393774",
     "lng": "135.291174",
@@ -1964,7 +1755,7 @@
       "results": {
         "muniCd": "27213",
         "lv01Nm": "泉佐野市",
-        "mesh_code": "51354263"
+        "mesh_code": "51354273"
       }
     },
     "resultsGsi": {
@@ -2000,9 +1791,9 @@
     "lng": "135.622537",
     "resultsLocal": {
       "results": {
-        "muniCd": "27382",
-        "lv01Nm": "河南町",
-        "mesh_code": "51355550"
+        "muniCd": "27214",
+        "lv01Nm": "富田林市",
+        "mesh_code": "51355459"
       }
     },
     "resultsGsi": {
@@ -2059,7 +1850,7 @@
       "results": {
         "muniCd": "28106",
         "lv01Nm": "神戸市長田区",
-        "mesh_code": "51357180"
+        "mesh_code": "51357190"
       }
     },
     "resultsGsi": {
@@ -2078,32 +1869,13 @@
       "results": {
         "muniCd": "28101",
         "lv01Nm": "神戸市東灘区",
-        "mesh_code": "52350264"
+        "mesh_code": "52350274"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "28206",
         "lv01Nm": "精道町"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "282146",
-    "lat": "34.799767",
-    "lng": "135.360073",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "28207",
-        "lv01Nm": "伊丹市",
-        "mesh_code": "52351259"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "28214",
-        "lv01Nm": "東洋町"
       }
     },
     "isDiff": true
@@ -2166,20 +1938,20 @@
     "isDiff": true
   },
   {
-    "citycode": "293610",
-    "lat": "34.584394",
-    "lng": "135.774038",
+    "citycode": "294250",
+    "lat": "34.594725",
+    "lng": "135.706551",
     "resultsLocal": {
       "results": {
-        "muniCd": "29204",
-        "lv01Nm": "天理市",
-        "mesh_code": "51356692"
+        "muniCd": "29343",
+        "lv01Nm": "三郷町",
+        "mesh_code": "51357516"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "29361",
-        "lv01Nm": "大字結崎"
+        "muniCd": "29425",
+        "lv01Nm": "王寺二丁目"
       }
     },
     "isDiff": true
@@ -2190,15 +1962,34 @@
     "lng": "135.736672",
     "resultsLocal": {
       "results": {
-        "muniCd": "29426",
-        "lv01Nm": "広陵町",
-        "mesh_code": "51356599"
+        "muniCd": "29424",
+        "lv01Nm": "上牧町",
+        "mesh_code": "51356598"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "29427",
         "lv01Nm": "池部一丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "302091",
+    "lat": "34.256295",
+    "lng": "135.311323",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "30201",
+        "lv01Nm": "和歌山市",
+        "mesh_code": "51353204"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "30209",
+        "lv01Nm": "西野"
       }
     },
     "isDiff": true
@@ -2211,7 +2002,7 @@
       "results": {
         "muniCd": "30202",
         "lv01Nm": "海南市",
-        "mesh_code": "51351294"
+        "mesh_code": "51352204"
       }
     },
     "resultsGsi": {
@@ -2230,7 +2021,7 @@
       "results": {
         "muniCd": "30203",
         "lv01Nm": "橋本市",
-        "mesh_code": "51353445"
+        "mesh_code": "51353444"
       }
     },
     "resultsGsi": {
@@ -2249,7 +2040,7 @@
       "results": {
         "muniCd": "30361",
         "lv01Nm": "湯浅町",
-        "mesh_code": "51350134"
+        "mesh_code": "51350133"
       }
     },
     "resultsGsi": {
@@ -2261,39 +2052,39 @@
     "isDiff": true
   },
   {
-    "citycode": "303828",
-    "lat": "33.925730",
-    "lng": "135.140883",
+    "citycode": "303925",
+    "lat": "33.911783",
+    "lng": "135.185875",
     "resultsLocal": {
       "results": {
         "muniCd": "30205",
         "lv01Nm": "御坊市",
-        "mesh_code": "50357101"
+        "mesh_code": "50356194"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "30382",
-        "lv01Nm": "大字高家"
+        "muniCd": "30392",
+        "lv01Nm": "大字土生"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "304221",
-    "lat": "33.594031",
-    "lng": "135.943962",
+    "citycode": "313645",
+    "lat": "35.408508",
+    "lng": "133.862306",
     "resultsLocal": {
       "results": {
-        "muniCd": "30421",
-        "lv01Nm": "那智勝浦町",
-        "mesh_code": "50353705"
+        "muniCd": "31203",
+        "lv01Nm": "倉吉市",
+        "mesh_code": "53330698"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "30422",
-        "lv01Nm": "大字太地"
+        "muniCd": "31364",
+        "lv01Nm": "大字大瀬"
       }
     },
     "isDiff": true
@@ -2313,6 +2104,25 @@
       "results": {
         "muniCd": "31384",
         "lv01Nm": "大字日吉津"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "313904",
+    "lat": "35.385333",
+    "lng": "133.407164",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "31202",
+        "lv01Nm": "米子市",
+        "mesh_code": "53330362"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "31390",
+        "lv01Nm": "吉長"
       }
     },
     "isDiff": true
@@ -2342,9 +2152,9 @@
     "lng": "133.828354",
     "resultsLocal": {
       "results": {
-        "muniCd": "33202",
-        "lv01Nm": "倉敷市",
-        "mesh_code": "51337616"
+        "muniCd": "33104",
+        "lv01Nm": "岡山市南区",
+        "mesh_code": "51337626"
       }
     },
     "resultsGsi": {
@@ -2375,63 +2185,6 @@
     "isDiff": true
   },
   {
-    "citycode": "341045",
-    "lat": "34.393972",
-    "lng": "132.434421",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "34101",
-        "lv01Nm": "広島市中区",
-        "mesh_code": "51324364"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "34104",
-        "lv01Nm": "福島町二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "341061",
-    "lat": "34.518373",
-    "lng": "132.507753",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "34105",
-        "lv01Nm": "広島市安佐南区",
-        "mesh_code": "51326410"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "34106",
-        "lv01Nm": "可部四丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "341088",
-    "lat": "34.364446",
-    "lng": "132.360840",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "34104",
-        "lv01Nm": "広島市西区",
-        "mesh_code": "51324239"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "34108",
-        "lv01Nm": "海老園二丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "343021",
     "lat": "34.392486",
     "lng": "132.504580",
@@ -2439,13 +2192,32 @@
       "results": {
         "muniCd": "34102",
         "lv01Nm": "広島市東区",
-        "mesh_code": "51324460"
+        "mesh_code": "51324470"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "34302",
         "lv01Nm": "大通三丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "343048",
+    "lat": "34.372164",
+    "lng": "132.536089",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "34107",
+        "lv01Nm": "広島市安芸区",
+        "mesh_code": "51324442"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "34304",
+        "lv01Nm": "上市"
       }
     },
     "isDiff": true
@@ -2477,7 +2249,7 @@
       "results": {
         "muniCd": "35208",
         "lv01Nm": "岩国市",
-        "mesh_code": "51322137"
+        "mesh_code": "51322147"
       }
     },
     "resultsGsi": {
@@ -2489,20 +2261,20 @@
     "isDiff": true
   },
   {
-    "citycode": "364011",
-    "lat": "34.133768",
-    "lng": "134.580556",
+    "citycode": "353442",
+    "lat": "33.937988",
+    "lng": "132.073052",
     "resultsLocal": {
       "results": {
-        "muniCd": "36201",
-        "lv01Nm": "徳島市",
-        "mesh_code": "51341456"
+        "muniCd": "35343",
+        "lv01Nm": "田布施町",
+        "mesh_code": "50327025"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "36401",
-        "lv01Nm": "広島"
+        "muniCd": "35344",
+        "lv01Nm": "大字平生町"
       }
     },
     "isDiff": true
@@ -2515,7 +2287,7 @@
       "results": {
         "muniCd": "37201",
         "lv01Nm": "高松市",
-        "mesh_code": "51343183"
+        "mesh_code": "51343193"
       }
     },
     "resultsGsi": {
@@ -2527,39 +2299,58 @@
     "isDiff": true
   },
   {
-    "citycode": "393037",
-    "lat": "33.427708",
-    "lng": "134.008293",
+    "citycode": "373869",
+    "lat": "34.310298",
+    "lng": "133.825513",
     "resultsLocal": {
       "results": {
-        "muniCd": "39302",
-        "lv01Nm": "奈半利町",
-        "mesh_code": "50341000"
+        "muniCd": "37203",
+        "lv01Nm": "坂出市",
+        "mesh_code": "51333676"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "39303",
+        "muniCd": "37386",
         "lv01Nm": "－"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "393649",
-    "lat": "33.783926",
-    "lng": "133.466608",
+    "citycode": "401340",
+    "lat": "33.561569",
+    "lng": "130.426428",
     "resultsLocal": {
       "results": {
-        "muniCd": "39363",
-        "lv01Nm": "土佐町",
-        "mesh_code": "50335337"
+        "muniCd": "40132",
+        "lv01Nm": "福岡市博多区",
+        "mesh_code": "50302374"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "39364",
-        "lv01Nm": "小松"
+        "muniCd": "40134",
+        "lv01Nm": "塩原三丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "401366",
+    "lat": "33.575686",
+    "lng": "130.369976",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "40133",
+        "lv01Nm": "福岡市中央区",
+        "mesh_code": "50302299"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "40136",
+        "lv01Nm": "鳥飼六丁目"
       }
     },
     "isDiff": true
@@ -2570,9 +2361,9 @@
     "lng": "130.348436",
     "resultsLocal": {
       "results": {
-        "muniCd": "40136",
-        "lv01Nm": "福岡市城南区",
-        "mesh_code": "50302298"
+        "muniCd": "40135",
+        "lv01Nm": "福岡市西区",
+        "mesh_code": "50302297"
       }
     },
     "resultsGsi": {
@@ -2591,13 +2382,32 @@
       "results": {
         "muniCd": "40218",
         "lv01Nm": "春日市",
-        "mesh_code": "50302338"
+        "mesh_code": "50302348"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "40219",
         "lv01Nm": "曙町二丁目"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "403482",
+    "lat": "33.646809",
+    "lng": "130.499834",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "40131",
+        "lv01Nm": "福岡市東区",
+        "mesh_code": "50303379"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "40348",
+        "lv01Nm": "大字久原"
       }
     },
     "isDiff": true
@@ -2610,7 +2420,7 @@
       "results": {
         "muniCd": "40205",
         "lv01Nm": "飯塚市",
-        "mesh_code": "50304527"
+        "mesh_code": "50304537"
       }
     },
     "resultsGsi": {
@@ -2636,25 +2446,6 @@
       "results": {
         "muniCd": "40503",
         "lv01Nm": "大字冨多"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "406040",
-    "lat": "33.652789",
-    "lng": "130.779091",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "40206",
-        "lv01Nm": "田川市",
-        "mesh_code": "50303672"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "40604",
-        "lv01Nm": "－"
       }
     },
     "isDiff": true
@@ -2705,7 +2496,7 @@
       "results": {
         "muniCd": "44203",
         "lv01Nm": "中津市",
-        "mesh_code": "50313114"
+        "mesh_code": "50313124"
       }
     },
     "resultsGsi": {
@@ -2743,13 +2534,32 @@
       "results": {
         "muniCd": "43105",
         "lv01Nm": "熊本市北区",
-        "mesh_code": "49302590"
+        "mesh_code": "49303500"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "43364",
         "lv01Nm": "大字木葉"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "433691",
+    "lat": "32.978106",
+    "lng": "130.605835",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "43206",
+        "lv01Nm": "玉名市",
+        "mesh_code": "49303478"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "43369",
+        "lv01Nm": "江田"
       }
     },
     "isDiff": true
@@ -2774,6 +2584,44 @@
     "isDiff": true
   },
   {
+    "citycode": "434442",
+    "lat": "32.651599",
+    "lng": "130.811465",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "43348",
+        "lv01Nm": "美里町",
+        "mesh_code": "48307684"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "43444",
+        "lv01Nm": "大字豊内"
+      }
+    },
+    "isDiff": true
+  },
+  {
+    "citycode": "434680",
+    "lat": "32.582500",
+    "lng": "130.673786",
+    "resultsLocal": {
+      "results": {
+        "muniCd": "43202",
+        "lv01Nm": "八代市",
+        "mesh_code": "48306593"
+      }
+    },
+    "resultsGsi": {
+      "results": {
+        "muniCd": "43468",
+        "lv01Nm": "島地"
+      }
+    },
+    "isDiff": true
+  },
+  {
     "citycode": "435074",
     "lat": "32.314342",
     "lng": "131.009546",
@@ -2793,39 +2641,39 @@
     "isDiff": true
   },
   {
-    "citycode": "435104",
-    "lat": "32.235269",
-    "lng": "130.798095",
+    "citycode": "464911",
+    "lat": "31.217263",
+    "lng": "130.768098",
     "resultsLocal": {
       "results": {
-        "muniCd": "43501",
-        "lv01Nm": "錦町",
-        "mesh_code": "48302674"
+        "muniCd": "46490",
+        "lv01Nm": "錦江町",
+        "mesh_code": "46306661"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "43510",
-        "lv01Nm": "大字深水"
+        "muniCd": "46491",
+        "lv01Nm": "根占川北"
       }
     },
     "isDiff": true
   },
   {
-    "citycode": "472123",
-    "lat": "26.161006",
-    "lng": "127.668944",
+    "citycode": "473251",
+    "lat": "26.361662",
+    "lng": "127.755322",
     "resultsLocal": {
       "results": {
-        "muniCd": "47210",
-        "lv01Nm": "糸満市",
-        "mesh_code": "39271583"
+        "muniCd": "47324",
+        "lv01Nm": "読谷村",
+        "mesh_code": "39274630"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "47212",
-        "lv01Nm": "字翁長"
+        "muniCd": "47325",
+        "lv01Nm": "字嘉手納"
       }
     },
     "isDiff": true
@@ -2869,26 +2717,6 @@
     "isDiff": true
   },
   {
-    "citycode": "011037",
-    "lat": "43.076069",
-    "lng": "141.363722",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "01101",
-        "lv01Nm": "札幌市中央区",
-        "mesh_code": "64414289",
-        "notes": ""
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "01103",
-        "lv01Nm": "北十一条東七丁目"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "011070",
     "lat": "43.074470",
     "lng": "141.300889",
@@ -2909,80 +2737,21 @@
     "isDiff": true
   },
   {
-    "citycode": "013048",
-    "lat": "43.225424",
-    "lng": "141.649216",
+    "citycode": "014583",
+    "lat": "43.698974",
+    "lng": "142.510317",
     "resultsLocal": {
       "results": {
-        "muniCd": "01210",
-        "lv01Nm": "岩見沢市",
-        "mesh_code": "64416562",
+        "muniCd": "01453",
+        "lv01Nm": "東神楽町",
+        "mesh_code": "65424430",
         "notes": ""
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "01304",
-        "lv01Nm": "第四十七線北"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "013641",
-    "lat": "41.968501",
-    "lng": "140.135719",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "01361",
-        "lv01Nm": "江差町",
-        "mesh_code": "62407151",
-        "notes": ""
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "01364",
-        "lv01Nm": "字緑町"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "014257",
-    "lat": "43.482608",
-    "lng": "141.984084",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "01227",
-        "lv01Nm": "歌志内市",
-        "mesh_code": "65411779",
-        "notes": ""
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "01425",
-        "lv01Nm": "字上砂川町"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "023078",
-    "lat": "41.043159",
-    "lng": "140.632296",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "02304",
-        "lv01Nm": "蓬田村",
-        "mesh_code": "61404540"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "02307",
-        "lv01Nm": "字蟹田鰐ケ淵"
+        "muniCd": "01458",
+        "lv01Nm": "東町一丁目"
       }
     },
     "isDiff": true
@@ -3007,39 +2776,20 @@
     "isDiff": true
   },
   {
-    "citycode": "032166",
-    "lat": "39.734684",
-    "lng": "141.077095",
+    "citycode": "035033",
+    "lat": "40.110266",
+    "lng": "141.817668",
     "resultsLocal": {
       "results": {
-        "muniCd": "03201",
-        "lv01Nm": "盛岡市",
-        "mesh_code": "59414076"
+        "muniCd": "03207",
+        "lv01Nm": "久慈市",
+        "mesh_code": "60411635"
       }
     },
     "resultsGsi": {
       "results": {
-        "muniCd": "03216",
-        "lv01Nm": "中鵜飼"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "053635",
-    "lat": "39.949382",
-    "lng": "140.073318",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "05361",
-        "lv01Nm": "五城目町",
-        "mesh_code": "59407036"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "05363",
-        "lv01Nm": "字大道"
+        "muniCd": "03503",
+        "lv01Nm": "大字野田"
       }
     },
     "isDiff": true
@@ -3064,25 +2814,6 @@
     "isDiff": true
   },
   {
-    "citycode": "063410",
-    "lat": "38.593863",
-    "lng": "140.372680",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "06212",
-        "lv01Nm": "尾花沢市",
-        "mesh_code": "57407300"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "06341",
-        "lv01Nm": "大字大石田"
-      }
-    },
-    "isDiff": true
-  },
-  {
     "citycode": "073440",
     "lat": "37.255606",
     "lng": "140.247074",
@@ -3090,7 +2821,7 @@
       "results": {
         "muniCd": "07207",
         "lv01Nm": "須賀川市",
-        "mesh_code": "55407200"
+        "mesh_code": "55407109"
       }
     },
     "resultsGsi": {
@@ -3109,32 +2840,13 @@
       "results": {
         "muniCd": "07208",
         "lv01Nm": "喜多方市",
-        "mesh_code": "56393785"
+        "mesh_code": "56393784"
       }
     },
     "resultsGsi": {
       "results": {
         "muniCd": "07402",
         "lv01Nm": "大字北山"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "074225",
-    "lat": "37.565299",
-    "lng": "139.886778",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "07202",
-        "lv01Nm": "会津若松市",
-        "mesh_code": "56392771"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "07422",
-        "lv01Nm": "大字清水田"
       }
     },
     "isDiff": true
@@ -3147,7 +2859,7 @@
       "results": {
         "muniCd": "07466",
         "lv01Nm": "矢吹町",
-        "mesh_code": "55406342"
+        "mesh_code": "55406352"
       }
     },
     "resultsGsi": {
@@ -3192,25 +2904,6 @@
       "results": {
         "muniCd": "07547",
         "lv01Nm": "大字高瀬"
-      }
-    },
-    "isDiff": true
-  },
-  {
-    "citycode": "085464",
-    "lat": "36.108426",
-    "lng": "139.794961",
-    "resultsLocal": {
-      "results": {
-        "muniCd": "12208",
-        "lv01Nm": "野田市",
-        "mesh_code": "54391623"
-      }
-    },
-    "resultsGsi": {
-      "results": {
-        "muniCd": "08546",
-        "lv01Nm": "－"
       }
     },
     "isDiff": true

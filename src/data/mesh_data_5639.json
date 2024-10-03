@@ -18685,8 +18685,7 @@
     {
       "city_code": "07422",
       "city_name": "湯川村",
-      "mesh_code": "56392771",
-      "smallest": true
+      "mesh_code": "56392771"
     }
   ],
   "56392772": [
@@ -25204,8 +25203,7 @@
     {
       "city_code": "07402",
       "city_name": "北塩原村",
-      "mesh_code": "56393785",
-      "smallest": true
+      "mesh_code": "56393785"
     }
   ],
   "56393786": [

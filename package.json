@@ -1,7 +1,7 @@
 {
   "name": "@sk-global/js-msearch-gsi-jp",
   "description": "A client library for APIs that presented by Geospatial Information Authority of Japan",
-  "version": "1.1.24",
+  "version": "1.1.25",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -52,7 +52,8 @@
   "dependencies": {
     "axios": "^1.7.3",
     "axios-cache-interceptor": "^1.6.0",
-    "csv-parser": "^3.0.0"
+    "csv-parser": "^3.0.0",
+    "japanmesh": "^1.3.2"
   },
   "repository": {
     "type": "git",

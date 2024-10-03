@@ -2016,8 +2016,7 @@
     {
       "city_code": "16321",
       "city_name": "舟橋村",
-      "mesh_code": "55370244",
-      "smallest": true
+      "mesh_code": "55370244"
     },
     {
       "city_code": "16323",
@@ -6846,8 +6845,7 @@
     {
       "city_code": "16211",
       "city_name": "射水市",
-      "mesh_code": "55371036",
-      "smallest": true
+      "mesh_code": "55371036"
     }
   ],
   "55371037": [

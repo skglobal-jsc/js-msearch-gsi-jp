@@ -5002,8 +5002,7 @@
     {
       "city_code": "12234",
       "city_name": "南房総市",
-      "mesh_code": "52394647",
-      "smallest": true
+      "mesh_code": "52394647"
     }
   ],
   "52394648": [
@@ -7054,8 +7053,7 @@
     {
       "city_code": "12463",
       "city_name": "鋸南町",
-      "mesh_code": "52395627",
-      "smallest": true
+      "mesh_code": "52395627"
     }
   ],
   "52395628": [
@@ -8916,8 +8914,7 @@
     {
       "city_code": "14382",
       "city_name": "箱根町",
-      "mesh_code": "52396078",
-      "smallest": true
+      "mesh_code": "52396078"
     }
   ],
   "52396079": [
@@ -12401,8 +12398,7 @@
     {
       "city_code": "14362",
       "city_name": "大井町",
-      "mesh_code": "52397182",
-      "smallest": true
+      "mesh_code": "52397182"
     }
   ],
   "52397183": [
@@ -12508,8 +12504,7 @@
     {
       "city_code": "14366",
       "city_name": "開成町",
-      "mesh_code": "52397190",
-      "smallest": true
+      "mesh_code": "52397190"
     }
   ],
   "52397191": [

@@ -26902,8 +26902,7 @@
     {
       "city_code": "06324",
       "city_name": "大江町",
-      "mesh_code": "57404156",
-      "smallest": true
+      "mesh_code": "57404156"
     }
   ],
   "57404157": [
@@ -48066,8 +48065,7 @@
     {
       "city_code": "06341",
       "city_name": "大石田町",
-      "mesh_code": "57407300",
-      "smallest": true
+      "mesh_code": "57407300"
     }
   ],
   "57407301": [

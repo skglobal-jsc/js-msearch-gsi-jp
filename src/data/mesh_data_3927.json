@@ -727,8 +727,7 @@
     {
       "city_code": "47212",
       "city_name": "豊見城市",
-      "mesh_code": "39271583",
-      "smallest": true
+      "mesh_code": "39271583"
     }
   ],
   "39271584": [
@@ -2092,8 +2091,7 @@
     {
       "city_code": "47350",
       "city_name": "南風原町",
-      "mesh_code": "39272528",
-      "smallest": true
+      "mesh_code": "39272528"
     }
   ],
   "39272529": [
@@ -2839,8 +2837,7 @@
     {
       "city_code": "47348",
       "city_name": "与那原町",
-      "mesh_code": "39272630",
-      "smallest": true
+      "mesh_code": "39272630"
     }
   ],
   "39272631": [

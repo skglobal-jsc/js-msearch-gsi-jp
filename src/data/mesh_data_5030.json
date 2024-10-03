@@ -3686,8 +3686,7 @@
     {
       "city_code": "40503",
       "city_name": "大刀洗町",
-      "mesh_code": "50300449",
-      "smallest": true
+      "mesh_code": "50300449"
     }
   ],
   "50300450": [
@@ -14708,8 +14707,7 @@
     {
       "city_code": "40137",
       "city_name": "福岡市早良区",
-      "mesh_code": "50302298",
-      "smallest": true
+      "mesh_code": "50302298"
     }
   ],
   "50302299": [
@@ -15154,8 +15152,7 @@
     {
       "city_code": "40219",
       "city_name": "大野城市",
-      "mesh_code": "50302338",
-      "smallest": true
+      "mesh_code": "50302338"
     }
   ],
   "50302339": [
@@ -23433,8 +23430,7 @@
     {
       "city_code": "40609",
       "city_name": "赤村",
-      "mesh_code": "50303639",
-      "smallest": true
+      "mesh_code": "50303639"
     }
   ],
   "50303640": [
@@ -23770,8 +23766,7 @@
     {
       "city_code": "40604",
       "city_name": "糸田町",
-      "mesh_code": "50303672",
-      "smallest": true
+      "mesh_code": "50303672"
     }
   ],
   "50303673": [
@@ -26817,8 +26812,7 @@
     {
       "city_code": "40401",
       "city_name": "小竹町",
-      "mesh_code": "50304527",
-      "smallest": true
+      "mesh_code": "50304527"
     }
   ],
   "50304528": [
@@ -27663,8 +27657,7 @@
     {
       "city_code": "40610",
       "city_name": "福智町",
-      "mesh_code": "50304612",
-      "smallest": true
+      "mesh_code": "50304612"
     }
   ],
   "50304613": [

@@ -7780,8 +7780,7 @@
     {
       "city_code": "36401",
       "city_name": "松茂町",
-      "mesh_code": "51341456",
-      "smallest": true
+      "mesh_code": "51341456"
     }
   ],
   "51341457": [
@@ -13984,8 +13983,7 @@
     {
       "city_code": "37206",
       "city_name": "さぬき市",
-      "mesh_code": "51343183",
-      "smallest": true
+      "mesh_code": "51343183"
     }
   ],
   "51343184": [

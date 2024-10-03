@@ -2625,8 +2625,7 @@
     {
       "city_code": "02381",
       "city_name": "板柳町",
-      "mesh_code": "61400336",
-      "smallest": true
+      "mesh_code": "61400336"
     }
   ],
   "61400337": [
@@ -20412,8 +20411,7 @@
     {
       "city_code": "02307",
       "city_name": "外ヶ浜町",
-      "mesh_code": "61404540",
-      "smallest": true
+      "mesh_code": "61404540"
     }
   ],
   "61404541": [

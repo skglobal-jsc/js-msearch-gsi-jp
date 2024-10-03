@@ -14049,8 +14049,7 @@
     {
       "city_code": "24471",
       "city_name": "大紀町",
-      "mesh_code": "51364323",
-      "smallest": true
+      "mesh_code": "51364323"
     }
   ],
   "51364324": [
@@ -21698,8 +21697,7 @@
     {
       "city_code": "24470",
       "city_name": "度会町",
-      "mesh_code": "51365520",
-      "smallest": true
+      "mesh_code": "51365520"
     }
   ],
   "51365521": [

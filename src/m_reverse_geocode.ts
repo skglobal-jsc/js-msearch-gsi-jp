@@ -4,12 +4,12 @@ import * as path from 'path';
 
 import { ReverseGeocodeResults } from './types';
 import { getMuniMap } from './muni';
-import { calculateMeshCode, convertToTokyoCoordinates } from './utils';
+import { convertLatLonToMesh } from './utils';
 
 const api = setupCache(
   axios.create({
     baseURL: 'https://mreversegeocoder.gsi.go.jp',
-    timeout: 2000,
+    // timeout: 2000,
   }),
   {
     ttl: 1000 * 60 * 60 * 24, // 24 hours
@@ -69,16 +69,10 @@ const reverseGeocodeByLocal = async (
   lat: number,
   lon: number
 ): Promise<ReverseGeocodeResults | null> => {
-  // Convert lat and lon to Tokyo coordinates
-  const { Etokyo, Ntokyo } = convertToTokyoCoordinates(lat, lon);
-
-  // Get mesh code based on the Tokyo coordinates
-  const { meshCode, meshCode12, meshCode34, prefix } = calculateMeshCode(
-    Ntokyo,
-    Etokyo
-  );
-
+  const meshCode = convertLatLonToMesh(lat, lon);
+  const prefix = meshCode.slice(0, 4);
   try {
+    console.log('Mesh code:', meshCode, 'Prefix:', prefix);
     // Read the mesh data from the local file system using require
     const meshDataPath = path.join(
       __dirname,
