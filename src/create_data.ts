@@ -116,7 +116,7 @@ const main = async () => {
   await splitJsonByMeshPrefix(outputJsonFile, outputDir);
 
   // remove the combined JSON file
-  fs.unlinkSync(outputJsonFile);
+  // fs.unlinkSync(outputJsonFile);
 
   console.log('Conversion completed.');
 };

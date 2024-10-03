@@ -9,7 +9,7 @@ import { convertLatLonToMesh } from './utils';
 const api = setupCache(
   axios.create({
     baseURL: 'https://mreversegeocoder.gsi.go.jp',
-    // timeout: 2000,
+    timeout: 2000,
   }),
   {
     ttl: 1000 * 60 * 60 * 24, // 24 hours
@@ -138,10 +138,12 @@ const latLonToAddress = (
   // try to get address from gsi local first
   // if there is an error, try to get address from GSI
   try {
-    return reverseGeocodeByLocal(lat, lon);
-  } catch (e) {
-    console.log('Error getting address from local:', e);
+    // return reverseGeocodeByLocal(lat, lon);
     return reverseGeocodeByGsi(lat, lon);
+  } catch (e) {
+    console.log('Error getting address from GS, falling back to local:', e);
+    // return reverseGeocodeByGsi(lat, lon);
+    return reverseGeocodeByLocal(lat, lon);
   }
 };
 
