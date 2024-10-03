@@ -6875,7 +6875,8 @@
     {
       "city_code": "35321",
       "city_name": "和木町",
-      "mesh_code": "51322147"
+      "mesh_code": "51322147",
+      "smallest": true
     }
   ],
   "51322148": [
@@ -17894,7 +17895,8 @@
     {
       "city_code": "34103",
       "city_name": "広島市南区",
-      "mesh_code": "51324357"
+      "mesh_code": "51324357",
+      "smallest": true
     }
   ],
   "51324358": [
@@ -18347,7 +18349,8 @@
     {
       "city_code": "34309",
       "city_name": "坂町",
-      "mesh_code": "51324401"
+      "mesh_code": "51324401",
+      "smallest": true
     }
   ],
   "51324402": [
@@ -18779,7 +18782,8 @@
     {
       "city_code": "34304",
       "city_name": "海田町",
-      "mesh_code": "51324442"
+      "mesh_code": "51324442",
+      "smallest": true
     }
   ],
   "51324443": [
@@ -19080,7 +19084,8 @@
     {
       "city_code": "34302",
       "city_name": "府中町",
-      "mesh_code": "51324470"
+      "mesh_code": "51324470",
+      "smallest": true
     }
   ],
   "51324471": [

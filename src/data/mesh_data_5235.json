@@ -1444,7 +1444,8 @@
     {
       "city_code": "28102",
       "city_name": "神戸市灘区",
-      "mesh_code": "52350159"
+      "mesh_code": "52350159",
+      "smallest": true
     }
   ],
   "52350160": [
@@ -2274,7 +2275,8 @@
     {
       "city_code": "28206",
       "city_name": "芦屋市",
-      "mesh_code": "52350274"
+      "mesh_code": "52350274",
+      "smallest": true
     }
   ],
   "52350275": [
@@ -2685,7 +2687,8 @@
     {
       "city_code": "27106",
       "city_name": "大阪市西区",
-      "mesh_code": "52350318"
+      "mesh_code": "52350318",
+      "smallest": true
     }
   ],
   "52350319": [
@@ -3950,7 +3953,8 @@
     {
       "city_code": "27118",
       "city_name": "大阪市城東区",
-      "mesh_code": "52350443"
+      "mesh_code": "52350443",
+      "smallest": true
     }
   ],
   "52350444": [
@@ -4433,7 +4437,8 @@
     {
       "city_code": "27114",
       "city_name": "大阪市東淀川区",
-      "mesh_code": "52350482"
+      "mesh_code": "52350482",
+      "smallest": true
     },
     {
       "city_code": "27117",
@@ -4491,7 +4496,8 @@
     {
       "city_code": "27223",
       "city_name": "門真市",
-      "mesh_code": "52350486"
+      "mesh_code": "52350486",
+      "smallest": true
     }
   ],
   "52350487": [
@@ -10480,7 +10486,8 @@
     {
       "city_code": "28217",
       "city_name": "川西市",
-      "mesh_code": "52351393"
+      "mesh_code": "52351393",
+      "smallest": true
     }
   ],
   "52351394": [
@@ -17589,7 +17596,8 @@
     {
       "city_code": "28301",
       "city_name": "猪名川町",
-      "mesh_code": "52352370"
+      "mesh_code": "52352370",
+      "smallest": true
     }
   ],
   "52352371": [
@@ -19225,7 +19233,8 @@
     {
       "city_code": "26322",
       "city_name": "久御山町",
-      "mesh_code": "52352558"
+      "mesh_code": "52352558",
+      "smallest": true
     }
   ],
   "52352559": [
@@ -19494,7 +19503,8 @@
     {
       "city_code": "26303",
       "city_name": "大山崎町",
-      "mesh_code": "52352585"
+      "mesh_code": "52352585",
+      "smallest": true
     }
   ],
   "52352586": [
@@ -25624,7 +25634,8 @@
     {
       "city_code": "26208",
       "city_name": "向日市",
-      "mesh_code": "52353535"
+      "mesh_code": "52353535",
+      "smallest": true
     },
     {
       "city_code": "26209",
@@ -26072,7 +26083,8 @@
     {
       "city_code": "26107",
       "city_name": "京都市南区",
-      "mesh_code": "52353579"
+      "mesh_code": "52353579",
+      "smallest": true
     }
   ],
   "52353580": [
@@ -32203,7 +32215,8 @@
     {
       "city_code": "26108",
       "city_name": "京都市右京区",
-      "mesh_code": "52354517"
+      "mesh_code": "52354517",
+      "smallest": true
     }
   ],
   "52354518": [
@@ -33069,7 +33082,8 @@
     {
       "city_code": "26104",
       "city_name": "京都市中京区",
-      "mesh_code": "52354610"
+      "mesh_code": "52354610",
+      "smallest": true
     }
   ],
   "52354611": [

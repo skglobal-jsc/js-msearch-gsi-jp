@@ -9124,7 +9124,8 @@
     {
       "city_code": "12106",
       "city_name": "千葉市美浜区",
-      "mesh_code": "53403065"
+      "mesh_code": "53403065",
+      "smallest": true
     }
   ],
   "53403066": [
@@ -24492,7 +24493,8 @@
     {
       "city_code": "12222",
       "city_name": "我孫子市",
-      "mesh_code": "53406032"
+      "mesh_code": "53406032",
+      "smallest": true
     }
   ],
   "53406033": [

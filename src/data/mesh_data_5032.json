@@ -24875,7 +24875,8 @@
     {
       "city_code": "35344",
       "city_name": "平生町",
-      "mesh_code": "50327025"
+      "mesh_code": "50327025",
+      "smallest": true
     }
   ],
   "50327026": [

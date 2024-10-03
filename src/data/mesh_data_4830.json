@@ -33465,7 +33465,8 @@
     {
       "city_code": "43468",
       "city_name": "氷川町",
-      "mesh_code": "48306593"
+      "mesh_code": "48306593",
+      "smallest": true
     }
   ],
   "48306594": [
@@ -38325,7 +38326,8 @@
     {
       "city_code": "43444",
       "city_name": "甲佐町",
-      "mesh_code": "48307684"
+      "mesh_code": "48307684",
+      "smallest": true
     }
   ],
   "48307685": [

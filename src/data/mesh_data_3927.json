@@ -2091,7 +2091,8 @@
     {
       "city_code": "47350",
       "city_name": "南風原町",
-      "mesh_code": "39272528"
+      "mesh_code": "39272528",
+      "smallest": true
     }
   ],
   "39272529": [
@@ -2837,7 +2838,8 @@
     {
       "city_code": "47348",
       "city_name": "与那原町",
-      "mesh_code": "39272630"
+      "mesh_code": "39272630",
+      "smallest": true
     }
   ],
   "39272631": [
@@ -4906,7 +4908,8 @@
     {
       "city_code": "47325",
       "city_name": "嘉手納町",
-      "mesh_code": "39274630"
+      "mesh_code": "39274630",
+      "smallest": true
     }
   ],
   "39274631": [

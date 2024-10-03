@@ -11297,7 +11297,8 @@
     {
       "city_code": "37386",
       "city_name": "宇多津町",
-      "mesh_code": "51333676"
+      "mesh_code": "51333676",
+      "smallest": true
     }
   ],
   "51333677": [
@@ -31927,7 +31928,8 @@
     {
       "city_code": "33423",
       "city_name": "早島町",
-      "mesh_code": "51337626"
+      "mesh_code": "51337626",
+      "smallest": true
     }
   ],
   "51337627": [

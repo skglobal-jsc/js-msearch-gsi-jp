@@ -26902,7 +26902,8 @@
     {
       "city_code": "06324",
       "city_name": "大江町",
-      "mesh_code": "57404156"
+      "mesh_code": "57404156",
+      "smallest": true
     }
   ],
   "57404157": [

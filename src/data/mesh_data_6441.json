@@ -32082,7 +32082,8 @@
       "city_code": "01107",
       "city_name": "札幌市西区",
       "mesh_code": "64414284",
-      "notes": ""
+      "notes": "",
+      "smallest": true
     }
   ],
   "64414285": [

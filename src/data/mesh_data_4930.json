@@ -3218,7 +3218,8 @@
     {
       "city_code": "43442",
       "city_name": "嘉島町",
-      "mesh_code": "49300680"
+      "mesh_code": "49300680",
+      "smallest": true
     }
   ],
   "49300681": [
@@ -16753,7 +16754,8 @@
     {
       "city_code": "43369",
       "city_name": "和水町",
-      "mesh_code": "49303478"
+      "mesh_code": "49303478",
+      "smallest": true
     }
   ],
   "49303479": [
@@ -16992,7 +16994,8 @@
     {
       "city_code": "43364",
       "city_name": "玉東町",
-      "mesh_code": "49303500"
+      "mesh_code": "49303500",
+      "smallest": true
     }
   ],
   "49303501": [

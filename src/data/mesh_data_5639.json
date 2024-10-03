@@ -25191,7 +25191,8 @@
     {
       "city_code": "07402",
       "city_name": "北塩原村",
-      "mesh_code": "56393784"
+      "mesh_code": "56393784",
+      "smallest": true
     }
   ],
   "56393785": [

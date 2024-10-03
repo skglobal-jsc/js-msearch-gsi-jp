@@ -6209,7 +6209,8 @@
     {
       "city_code": "23362",
       "city_name": "扶桑町",
-      "mesh_code": "53360733"
+      "mesh_code": "53360733",
+      "smallest": true
     }
   ],
   "53360734": [
@@ -10851,7 +10852,8 @@
     {
       "city_code": "21421",
       "city_name": "北方町",
-      "mesh_code": "53361524"
+      "mesh_code": "53361524",
+      "smallest": true
     }
   ],
   "53361525": [
@@ -11281,7 +11283,8 @@
     {
       "city_code": "21218",
       "city_name": "本巣市",
-      "mesh_code": "53361574"
+      "mesh_code": "53361574",
+      "smallest": true
     }
   ],
   "53361575": [

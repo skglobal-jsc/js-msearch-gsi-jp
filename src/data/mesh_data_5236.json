@@ -23013,7 +23013,8 @@
     {
       "city_code": "24344",
       "city_name": "川越町",
-      "mesh_code": "52364523"
+      "mesh_code": "52364523",
+      "smallest": true
     }
   ],
   "52364524": [
@@ -32174,7 +32175,8 @@
     {
       "city_code": "23107",
       "city_name": "名古屋市昭和区",
-      "mesh_code": "52365784"
+      "mesh_code": "52365784",
+      "smallest": true
     }
   ],
   "52365785": [
@@ -37324,7 +37326,8 @@
     {
       "city_code": "23237",
       "city_name": "あま市",
-      "mesh_code": "52366604"
+      "mesh_code": "52366604",
+      "smallest": true
     },
     {
       "city_code": "23424",
@@ -37446,7 +37449,8 @@
     {
       "city_code": "23424",
       "city_name": "大治町",
-      "mesh_code": "52366615"
+      "mesh_code": "52366615",
+      "smallest": true
     }
   ],
   "52366616": [
@@ -37839,7 +37843,8 @@
     {
       "city_code": "23233",
       "city_name": "清須市",
-      "mesh_code": "52366649"
+      "mesh_code": "52366649",
+      "smallest": true
     }
   ],
   "52366650": [
@@ -38345,7 +38350,8 @@
     {
       "city_code": "23106",
       "city_name": "名古屋市中区",
-      "mesh_code": "52366702"
+      "mesh_code": "52366702",
+      "smallest": true
     }
   ],
   "52366703": [
@@ -38474,7 +38480,8 @@
     {
       "city_code": "23102",
       "city_name": "名古屋市東区",
-      "mesh_code": "52366714"
+      "mesh_code": "52366714",
+      "smallest": true
     }
   ],
   "52366715": [
@@ -38538,7 +38545,8 @@
     {
       "city_code": "23104",
       "city_name": "名古屋市西区",
-      "mesh_code": "52366721"
+      "mesh_code": "52366721",
+      "smallest": true
     },
     {
       "city_code": "23106",
@@ -45280,7 +45288,8 @@
     {
       "city_code": "23342",
       "city_name": "豊山町",
-      "mesh_code": "52367702"
+      "mesh_code": "52367702",
+      "smallest": true
     }
   ],
   "52367703": [

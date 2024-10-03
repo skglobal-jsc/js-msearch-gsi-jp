@@ -3098,7 +3098,8 @@
     {
       "city_code": "31390",
       "city_name": "伯耆町",
-      "mesh_code": "53330362"
+      "mesh_code": "53330362",
+      "smallest": true
     }
   ],
   "53330363": [
@@ -5870,7 +5871,8 @@
     {
       "city_code": "31364",
       "city_name": "三朝町",
-      "mesh_code": "53330698"
+      "mesh_code": "53330698",
+      "smallest": true
     }
   ],
   "53330699": [
@@ -9041,7 +9043,8 @@
     {
       "city_code": "31384",
       "city_name": "日吉津村",
-      "mesh_code": "53331320"
+      "mesh_code": "53331320",
+      "smallest": true
     }
   ],
   "53331321": [

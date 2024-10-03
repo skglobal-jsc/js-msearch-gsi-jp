@@ -10521,7 +10521,8 @@
     {
       "city_code": "03503",
       "city_name": "野田村",
-      "mesh_code": "60411635"
+      "mesh_code": "60411635",
+      "smallest": true
     }
   ],
   "60411636": [

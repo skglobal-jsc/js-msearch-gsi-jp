@@ -17251,7 +17251,8 @@
     {
       "city_code": "30392",
       "city_name": "日高川町",
-      "mesh_code": "50356194"
+      "mesh_code": "50356194",
+      "smallest": true
     }
   ],
   "50356195": [

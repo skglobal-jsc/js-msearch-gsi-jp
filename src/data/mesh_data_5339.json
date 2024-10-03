@@ -81,7 +81,8 @@
     {
       "city_code": "14366",
       "city_name": "開成町",
-      "mesh_code": "53390009"
+      "mesh_code": "53390009",
+      "smallest": true
     }
   ],
   "53390010": [
@@ -960,7 +961,8 @@
     {
       "city_code": "14363",
       "city_name": "松田町",
-      "mesh_code": "53390111"
+      "mesh_code": "53390111",
+      "smallest": true
     }
   ],
   "53390112": [
@@ -4547,7 +4549,8 @@
     {
       "city_code": "14111",
       "city_name": "横浜市港南区",
-      "mesh_code": "53390487"
+      "mesh_code": "53390487",
+      "smallest": true
     }
   ],
   "53390488": [
@@ -21180,7 +21183,8 @@
     {
       "city_code": "13219",
       "city_name": "狛江市",
-      "mesh_code": "53393466"
+      "mesh_code": "53393466",
+      "smallest": true
     }
   ],
   "53393467": [
@@ -22470,7 +22474,8 @@
     {
       "city_code": "13113",
       "city_name": "渋谷区",
-      "mesh_code": "53393596"
+      "mesh_code": "53393596",
+      "smallest": true
     }
   ],
   "53393597": [
@@ -23097,7 +23102,8 @@
     {
       "city_code": "13103",
       "city_name": "港区",
-      "mesh_code": "53393680"
+      "mesh_code": "53393680",
+      "smallest": true
     }
   ],
   "53393681": [
@@ -26678,7 +26684,8 @@
     {
       "city_code": "13214",
       "city_name": "国分寺市",
-      "mesh_code": "53394357"
+      "mesh_code": "53394357",
+      "smallest": true
     }
   ],
   "53394358": [
@@ -27929,7 +27936,8 @@
     {
       "city_code": "13203",
       "city_name": "武蔵野市",
-      "mesh_code": "53394465"
+      "mesh_code": "53394465",
+      "smallest": true
     },
     {
       "city_code": "13229",
@@ -29158,7 +29166,8 @@
     {
       "city_code": "13116",
       "city_name": "豊島区",
-      "mesh_code": "53394577"
+      "mesh_code": "53394577",
+      "smallest": true
     }
   ],
   "53394578": [
@@ -29441,7 +29450,8 @@
     {
       "city_code": "13102",
       "city_name": "中央区",
-      "mesh_code": "53394601"
+      "mesh_code": "53394601",
+      "smallest": true
     }
   ],
   "53394602": [
@@ -29824,7 +29834,8 @@
     {
       "city_code": "13105",
       "city_name": "文京区",
-      "mesh_code": "53394640"
+      "mesh_code": "53394640",
+      "smallest": true
     }
   ],
   "53394641": [
@@ -29982,7 +29993,8 @@
     {
       "city_code": "13107",
       "city_name": "墨田区",
-      "mesh_code": "53394654"
+      "mesh_code": "53394654",
+      "smallest": true
     }
   ],
   "53394655": [
@@ -35249,7 +35261,8 @@
     {
       "city_code": "11230",
       "city_name": "新座市",
-      "mesh_code": "53395455"
+      "mesh_code": "53395455",
+      "smallest": true
     }
   ],
   "53395456": [
@@ -35643,7 +35656,8 @@
     {
       "city_code": "11324",
       "city_name": "三芳町",
-      "mesh_code": "53395492"
+      "mesh_code": "53395492",
+      "smallest": true
     }
   ],
   "53395493": [
@@ -36517,7 +36531,8 @@
     {
       "city_code": "11224",
       "city_name": "戸田市",
-      "mesh_code": "53395584"
+      "mesh_code": "53395584",
+      "smallest": true
     }
   ],
   "53395585": [
@@ -36627,7 +36642,8 @@
     {
       "city_code": "11223",
       "city_name": "蕨市",
-      "mesh_code": "53395594"
+      "mesh_code": "53395594",
+      "smallest": true
     }
   ],
   "53395595": [
@@ -40821,7 +40837,8 @@
     {
       "city_code": "11225",
       "city_name": "入間市",
-      "mesh_code": "53396301"
+      "mesh_code": "53396301",
+      "smallest": true
     }
   ],
   "53396302": [
@@ -42346,7 +42363,8 @@
     {
       "city_code": "11245",
       "city_name": "ふじみ野市",
-      "mesh_code": "53396451"
+      "mesh_code": "53396451",
+      "smallest": true
     }
   ],
   "53396452": [
@@ -43201,7 +43219,8 @@
     {
       "city_code": "11107",
       "city_name": "さいたま市浦和区",
-      "mesh_code": "53396531"
+      "mesh_code": "53396531",
+      "smallest": true
     },
     {
       "city_code": "11108",
@@ -43352,7 +43371,8 @@
     {
       "city_code": "11109",
       "city_name": "さいたま市緑区",
-      "mesh_code": "53396544"
+      "mesh_code": "53396544",
+      "smallest": true
     }
   ],
   "53396545": [
@@ -43529,7 +43549,8 @@
     {
       "city_code": "11105",
       "city_name": "さいたま市中央区",
-      "mesh_code": "53396560"
+      "mesh_code": "53396560",
+      "smallest": true
     },
     {
       "city_code": "11107",
@@ -44633,7 +44654,8 @@
     {
       "city_code": "11243",
       "city_name": "吉川市",
-      "mesh_code": "53396667"
+      "mesh_code": "53396667",
+      "smallest": true
     }
   ],
   "53396668": [
@@ -51739,7 +51761,8 @@
     {
       "city_code": "11465",
       "city_name": "松伏町",
-      "mesh_code": "53397615"
+      "mesh_code": "53397615",
+      "smallest": true
     }
   ],
   "53397616": [

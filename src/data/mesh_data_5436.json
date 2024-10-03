@@ -7503,7 +7503,8 @@
     {
       "city_code": "18322",
       "city_name": "永平寺町",
-      "mesh_code": "54361213"
+      "mesh_code": "54361213",
+      "smallest": true
     }
   ],
   "54361214": [

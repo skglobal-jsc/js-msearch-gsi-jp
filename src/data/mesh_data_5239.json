@@ -8914,7 +8914,8 @@
     {
       "city_code": "14382",
       "city_name": "箱根町",
-      "mesh_code": "52396078"
+      "mesh_code": "52396078",
+      "smallest": true
     }
   ],
   "52396079": [

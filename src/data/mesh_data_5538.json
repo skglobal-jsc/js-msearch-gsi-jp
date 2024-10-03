@@ -14787,7 +14787,8 @@
     {
       "city_code": "20562",
       "city_name": "木島平村",
-      "mesh_code": "55382332"
+      "mesh_code": "55382332",
+      "smallest": true
     }
   ],
   "55382333": [

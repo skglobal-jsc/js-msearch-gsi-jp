@@ -14058,7 +14058,8 @@
     {
       "city_code": "37206",
       "city_name": "さぬき市",
-      "mesh_code": "51343193"
+      "mesh_code": "51343193",
+      "smallest": true
     }
   ],
   "51343194": [

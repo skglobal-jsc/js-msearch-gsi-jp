@@ -4057,7 +4057,8 @@
     {
       "city_code": "11233",
       "city_name": "北本市",
-      "mesh_code": "54390432"
+      "mesh_code": "54390432",
+      "smallest": true
     }
   ],
   "54390433": [
@@ -5194,7 +5195,8 @@
     {
       "city_code": "11464",
       "city_name": "杉戸町",
-      "mesh_code": "54390538"
+      "mesh_code": "54390538",
+      "smallest": true
     }
   ],
   "54390539": [
@@ -47748,7 +47750,8 @@
     {
       "city_code": "10448",
       "city_name": "昭和村",
-      "mesh_code": "54397065"
+      "mesh_code": "54397065",
+      "smallest": true
     }
   ],
   "54397066": [

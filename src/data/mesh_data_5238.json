@@ -25109,7 +25109,8 @@
     {
       "city_code": "22342",
       "city_name": "長泉町",
-      "mesh_code": "52385761"
+      "mesh_code": "52385761",
+      "smallest": true
     }
   ],
   "52385762": [

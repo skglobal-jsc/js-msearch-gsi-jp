@@ -13558,7 +13558,8 @@
     {
       "city_code": "26465",
       "city_name": "与謝野町",
-      "mesh_code": "53352172"
+      "mesh_code": "53352172",
+      "smallest": true
     }
   ],
   "53352173": [
@@ -20599,7 +20600,8 @@
     {
       "city_code": "26463",
       "city_name": "伊根町",
-      "mesh_code": "53354211"
+      "mesh_code": "53354211",
+      "smallest": true
     }
   ],
   "53354212": [

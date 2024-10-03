@@ -19559,7 +19559,8 @@
     {
       "city_code": "10384",
       "city_name": "甘楽町",
-      "mesh_code": "54382793"
+      "mesh_code": "54382793",
+      "smallest": true
     }
   ],
   "54382794": [
@@ -39521,7 +39522,8 @@
     {
       "city_code": "20218",
       "city_name": "千曲市",
-      "mesh_code": "54386049"
+      "mesh_code": "54386049",
+      "smallest": true
     }
   ],
   "54386050": [

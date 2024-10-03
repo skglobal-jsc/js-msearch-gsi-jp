@@ -18231,7 +18231,8 @@
     {
       "city_code": "20415",
       "city_name": "喬木村",
-      "mesh_code": "53372619"
+      "mesh_code": "53372619",
+      "smallest": true
     }
   ],
   "53372620": [
@@ -19410,7 +19411,8 @@
     {
       "city_code": "20416",
       "city_name": "豊丘村",
-      "mesh_code": "53372761"
+      "mesh_code": "53372761",
+      "smallest": true
     }
   ],
   "53372762": [
@@ -38573,7 +38575,8 @@
     {
       "city_code": "20388",
       "city_name": "宮田村",
-      "mesh_code": "53375725"
+      "mesh_code": "53375725",
+      "smallest": true
     }
   ],
   "53375726": [
@@ -44944,7 +44947,8 @@
     {
       "city_code": "20385",
       "city_name": "南箕輪村",
-      "mesh_code": "53376748"
+      "mesh_code": "53376748",
+      "smallest": true
     }
   ],
   "53376749": [

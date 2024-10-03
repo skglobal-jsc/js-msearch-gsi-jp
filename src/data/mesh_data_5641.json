@@ -477,7 +477,8 @@
     {
       "city_code": "07547",
       "city_name": "浪江町",
-      "mesh_code": "56411070"
+      "mesh_code": "56411070",
+      "smallest": true
     }
   ],
   "56411071": [

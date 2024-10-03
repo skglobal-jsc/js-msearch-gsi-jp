@@ -8768,7 +8768,8 @@
     {
       "city_code": "19365",
       "city_name": "身延町",
-      "mesh_code": "53381365"
+      "mesh_code": "53381365",
+      "smallest": true
     }
   ],
   "53381366": [
@@ -17597,7 +17598,8 @@
     {
       "city_code": "19423",
       "city_name": "西桂町",
-      "mesh_code": "53382627"
+      "mesh_code": "53382627",
+      "smallest": true
     }
   ],
   "53382628": [
@@ -22782,7 +22784,8 @@
     {
       "city_code": "19384",
       "city_name": "昭和町",
-      "mesh_code": "53383452"
+      "mesh_code": "53383452",
+      "smallest": true
     }
   ],
   "53383453": [
@@ -28304,7 +28307,8 @@
     {
       "city_code": "19210",
       "city_name": "甲斐市",
-      "mesh_code": "53384328"
+      "mesh_code": "53384328",
+      "smallest": true
     }
   ],
   "53384329": [

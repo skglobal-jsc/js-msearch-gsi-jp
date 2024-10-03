@@ -4062,7 +4062,8 @@
     {
       "city_code": "46491",
       "city_name": "南大隅町",
-      "mesh_code": "46306661"
+      "mesh_code": "46306661",
+      "smallest": true
     }
   ],
   "46306662": [
