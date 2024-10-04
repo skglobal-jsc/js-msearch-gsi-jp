@@ -5,6 +5,7 @@ import * as path from 'path';
 import { ReverseGeocodeResults } from './types';
 import { getMuniMap } from './muni';
 import { convertLatLonToMesh } from './utils';
+import { openReverseGeocoder } from '@geolonia/open-reverse-geocoder';
 
 const api = setupCache(
   axios.create({
@@ -119,6 +120,25 @@ const reverseGeocodeByLocal = async (
   }
 };
 
+const reverseGeocodeByOpenReverseGeocoder = async (
+  lat: number,
+  lon: number
+): Promise<ReverseGeocodeResults | null> => {
+  const result = await openReverseGeocoder([lon, lat], {});
+  if (!result) {
+    return null;
+  }
+  const { code, prefecture, city } = result;
+  return {
+    results: {
+      muniCd: code,
+      lv01Nm: city,
+      mesh_code: '',
+      notes: prefecture,
+    },
+  };
+};
+
 /**
  * Converts latitude and longitude coordinates to an address.
  *
@@ -135,16 +155,17 @@ const latLonToAddress = (
   lat: number,
   lon: number
 ): Promise<ReverseGeocodeResults | null> => {
-  // try to get address from gsi local first
-  // if there is an error, try to get address from GSI
-  try {
-    // return reverseGeocodeByLocal(lat, lon);
-    return reverseGeocodeByGsi(lat, lon);
-  } catch (e) {
-    console.log('Error getting address from GS, falling back to local:', e);
-    // return reverseGeocodeByGsi(lat, lon);
-    return reverseGeocodeByLocal(lat, lon);
-  }
+  // // try to get address from gsi local first
+  // // if there is an error, try to get address from GSI
+  // try {
+  //   // return reverseGeocodeByLocal(lat, lon);
+  //   return reverseGeocodeByGsi(lat, lon);
+  // } catch (e) {
+  //   console.log('Error getting address from GS, falling back to local:', e);
+  //   // return reverseGeocodeByGsi(lat, lon);
+  //   return reverseGeocodeByOpenReverseGeocoder(lat, lon);
+  // }
+  return reverseGeocodeByOpenReverseGeocoder(lat, lon);
 };
 
 const getElevationFromOpenAPI = async (
@@ -212,14 +233,7 @@ const getElevationFromGSI = async (
  * @throws Will log an error message if both GSI and OpenAPI requests fail.
  */
 const getElevation = async (lat: number, lon: number) => {
-  // try to get elevation from GSI first
-  // if there is an error, try to get elevation from OpenAPI
-  try {
-    return await getElevationFromGSI(lat, lon);
-  } catch (e) {
-    console.log('Error getting elevation from GSI:', e);
-    return await getElevationFromOpenAPI(lat, lon);
-  }
+  return getElevationFromGSI(lat, lon);
 };
 
 export {

@@ -10,6 +10,8 @@ import {
   getElevationFromOpenAPI,
 } from './index';
 
+import { openReverseGeocoder } from '@geolonia/open-reverse-geocoder';
+
 import * as fs from 'fs';
 
 const run = async () => {
@@ -131,6 +133,14 @@ const test = async () => {
   const resultsGsi = await reverseGeocodeByGsi(lat, lon);
   console.log('resultsGsi', resultsGsi);
   console.timeEnd('reverseGeocodeByGsi');
+
+  // ==== openReverseGeocoder
+  console.time('openReverseGeocoder');
+  const resultsOpen = await openReverseGeocoder([lon, lat], {
+
+  });
+  console.log('resultsOpen', resultsOpen);
+  console.timeEnd('openReverseGeocoder');
 
   // // === getElevation
   // console.time('getElevation');
@@ -267,7 +277,14 @@ const correctData = async () => {
       results: { muniCd: muniCdGsi },
     } = resultsGsi;
 
-    console.log('mesh_code:', mesh_code, 'City Code local:', muniCd, 'City Code GSI:', muniCdGsi);
+    console.log(
+      'mesh_code:',
+      mesh_code,
+      'City Code local:',
+      muniCd,
+      'City Code GSI:',
+      muniCdGsi
+    );
   }
 };
 
