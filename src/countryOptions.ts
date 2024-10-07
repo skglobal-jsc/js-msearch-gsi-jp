@@ -10,7 +10,7 @@ const countryOptions: { [s: string]: ReverseGeocodingOptions } = {
   JP: {
     zoomBase: 10,
     // tileUrl: `http://127.0.0.1:5500/docs/tiles/{z}/{x}/{y}.pbf`,
-    tileUrl: 'https://skglobal-jsc.github.io/open-reverse-geocoder/tiles/{z}/{x}/{y}.pbf',
+    tileUrl: 'https://skglobal-jsc.github.io/js-msearch-gsi-jp/tiles/{z}/{x}/{y}.pbf',
     layer: 'japanese-admins',
     getResult: function (feature: GeoJSON.Feature) {
       const res: ReverseGeocodingResultJP = {

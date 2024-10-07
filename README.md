@@ -2,18 +2,14 @@
 
 ## Introduction
 
-`@sk-global/js-msearch-gsi-jp` is a client library for APIs presented by the Geospatial Information Authority of Japan. This library provides functionalities to interact with various geospatial data services.
+This NPM package provides a feature to seach both prefecture name and city name from particular longitude/latitude.
 
-## Features
+In order to provide reverse-geocoding feature, we are hosting address data in Github pages.
 
-- Reverse Geocoding: Convert latitude and longitude to an address.
-- Search for a location by address: Search for a location by address.
+## How it works
 
-## Supported APIs
-
-* Geocoding API - `GET https://msearch.gsi.go.jp/address-search/AddressSearch?q=XXXX`
-* Reverse Geocoding API - `GET https://mreversegeocoder.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat=XXXX&lon=XXXX`
-
+1. Get the tile number equivalent to zoom level 10 (about 30 km square) on the client side based on the latitude and longitude specified as arguments of openReverseGeocoder(), and download the vector tiles from the web server with AJAX.
+2. Retrieves the polygons with the specified latitude and longitude from the polygons of cities contained in the vector tiles downloaded by AJAX on the client side, and returns the name of the prefecture and the name of the city.
 
 ## Installation
 
@@ -77,6 +73,41 @@ console.log(searchResults);
 // ]
 ```
 
-## License
+## Tileset (docs/tiles)
 
-This library is released under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+The tileset is hosted on Github pages. The tileset is generated from the GSI vector tiles.
+
+### How to update the tileset
+
+#### Preparation
+
+Please make sure you have installed following library on your environment in order to make tiles. If it is MacOS, you may use the below commands to install them.
+
+- ogr2ogr
+  - `brew install gdal`
+- tippercanoe
+  - `brew install tippecanoe`
+
+#### Update the tileset
+
+1. Clone the repository
+2. Run the following command to generate the tiles
+   ```sh
+   npm run download
+   npm run build
+   ```
+
+**What do these commands do?**
+
+1. It downloads the latest administrative boundaries from GSI website. Note. the latest version might change URL anytime.
+2. Extract zip file.
+3. Convert Shapefile to GeoJSON by using `ogr2ogr`. Note. file name may be changed in the latest version.
+4. Modify properties inside vector tiles
+5. Create `*.mbtiles` by using `tippecanoe`. We disabled to compress vector tiles.
+6. Extract tiles from mbtiles format under specific directory in order to use tiles in static.
+
+
+**Source**
+It uses administrative boundaries polygons from GSI in terms of data for prefectures and cities.
+
+https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html
