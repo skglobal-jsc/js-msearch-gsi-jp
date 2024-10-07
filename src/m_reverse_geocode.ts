@@ -88,7 +88,7 @@ const gsiReverseGeocoder = async ({
   );
   const results = response.data;
   return {
-    results,
+    ...results,
     code: results?.results?.muniCd,
     city: results?.results?.lv01Nm,
   };
