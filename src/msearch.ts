@@ -1,9 +1,23 @@
 import axios from 'axios';
 
-import { SearchResults } from './types';
-
 // base url for msearch api
 const BaseURL = 'https://msearch.gsi.go.jp';
+
+type Geometry = {
+  coordinates: number[];
+  type: string;
+};
+
+type Properties = {
+  addressCode: string;
+  title: string;
+  dataSource: string;
+};
+interface SearchResults {
+  geometry: Geometry;
+  type: string;
+  properties: Properties;
+}
 
 /**
  * search address by query

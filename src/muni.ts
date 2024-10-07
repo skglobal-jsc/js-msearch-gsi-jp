@@ -3,7 +3,24 @@ const MuniURL = 'https://maps.gsi.go.jp/js/muni.js';
 const MuniRegex = /GSI\.MUNI_ARRAY\["\d+"\]\s*=\s*'(.*?)';/g;
 
 import axios from 'axios';
-import { AddressResults, MuniMap } from './types';
+
+interface MuniRecord {
+  prefCode: string;
+  prefName: string;
+  cityCode: string;
+  cityName: string;
+}
+
+interface MuniMap {
+  [key: string]: MuniRecord;
+}
+
+interface AddressResults {
+  muniCd: string;
+  lv01Nm: string;
+  mesh_code?: string;
+  notes?: string;
+}
 
 /**
  * parse muni.js
@@ -52,7 +69,11 @@ const parseMuniRecord = (line: string) => {
 };
 
 /**
- * Get muni map (city or ward map by city code) from GSI
+ * Fetches the municipality map data from a specified URL.
+ *
+ * @returns {Promise<object>} A promise that resolves to the parsed municipality map data.
+ *
+ * @throws Will log an error message and return an empty object if the request fails.
  */
 const getMuniMap = async () => {
   try {
@@ -170,9 +191,4 @@ const getMuniMapLocations = async () => {
   return muniMapLocations;
 };
 
-export {
-  getMuniMap,
-  getMuniMapLocations,
-  muniCodeToAddressName,
-  addressResultsToAddressName,
-};
+export { getMuniMap };
