@@ -103,7 +103,10 @@ const gsiReverseGeocoder = async ({
  * @returns {Promise<{ longitude: number, latitude: number, elevation: number }>}
  * A promise that resolves to an object containing the longitude, latitude, and elevation.
  */
-const getElevation = async ({ lon, lat }: { lon: number; lat: number }) => {
+const getElevation = async (
+  lat: number,
+  lon: number
+): Promise<{ longitude: number; latitude: number; elevation: number }> => {
   // first, get elevation from GSI
   const response = await api.get(
     'https://mreversegeocoder.gsi.go.jp/general/dem/scripts/getelevation.php',
@@ -131,13 +134,10 @@ const getElevation = async ({ lon, lat }: { lon: number; lat: number }) => {
  *
  * @throws Will attempt to use an alternative geocoding service if the primary service fails.
  */
-const reverseGeocoder = async ({
-  lon,
-  lat,
-}: {
-  lon: number;
-  lat: number;
-}): Promise<ReverseGeocodingResult> => {
+const latLonToAddress = async (
+  lat: number,
+  lon: number
+): Promise<ReverseGeocodingResult> => {
   // first, get city code from open reverse geocoder(local)
   try {
     const result = await openReverseGeocoder([lon, lat]);
@@ -149,4 +149,9 @@ const reverseGeocoder = async ({
   }
 };
 
-export { reverseGeocoder, getElevation, gsiReverseGeocoder };
+export {
+  latLonToAddress,
+  getElevation,
+  gsiReverseGeocoder,
+  openReverseGeocoder,
+};

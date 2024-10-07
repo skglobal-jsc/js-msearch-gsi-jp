@@ -1,7 +1,7 @@
 {
   "name": "@sk-global/js-msearch-gsi-jp",
   "description": "A client library for APIs that presented by Geospatial Information Authority of Japan",
-  "version": "2.1.10",
+  "version": "2.1.11",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
