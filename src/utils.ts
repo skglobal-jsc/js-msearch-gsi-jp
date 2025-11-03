@@ -1,4 +1,4 @@
-import { geoContains } from 'd3-geo';
+import pointInPolygon from 'point-in-polygon';
 import axios, { AxiosInstance } from 'axios';
 import { VectorTile } from 'mapbox-vector-tile';
 import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces';
@@ -64,15 +64,25 @@ export const getTileResult = (
         const feature: any = layer.feature(i).toGeoJSON(x, y, options.zoomBase);
         if (layers.length > 1) feature.properties.vt_layer = layerID;
 
-        const geojson = {
-          type: 'FeatureCollection',
-          features: [feature],
-        };
-
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const res = geoContains(geojson as any, lnglat);
-        if (res) {
-          geocodingResult = options.getResult(feature);
+        // Check if point is inside polygon
+        // feature.geometry.coordinates is the polygon coordinates
+        if (feature.geometry && feature.geometry.type === 'Polygon') {
+          const coordinates = feature.geometry.coordinates[0]; // First ring (exterior)
+          const res = pointInPolygon(lnglat, coordinates);
+          if (res) {
+            geocodingResult = options.getResult(feature);
+          }
+        } else if (feature.geometry && feature.geometry.type === 'MultiPolygon') {
+          // Handle MultiPolygon: check if point is in any polygon
+          const polygons = feature.geometry.coordinates;
+          for (const polygon of polygons) {
+            const coordinates = polygon[0]; // First ring (exterior)
+            const res = pointInPolygon(lnglat, coordinates);
+            if (res) {
+              geocodingResult = options.getResult(feature);
+              break;
+            }
+          }
         }
       }
     }
