@@ -141,10 +141,15 @@ const latLonToAddress = async (
   // first, get city code from open reverse geocoder(local)
   try {
     const result = await openReverseGeocoder([lon, lat]);
+    // nếu như không thể lấy được code từ open reverse geocoder, thì sẽ lấy từ GSI
+    if (!result.code) {
+     throw new Error('Failed to get city code from open reverse geocoder');
+    }
+
     return result;
   } catch (error) {
     // if failed, get city code from GSI
-    console.log('Failed to get city code from open reverse geocoder');
+    console.log('Failed to get city code from open reverse geocoder. Try to get from GSI.');
     return gsiReverseGeocoder({ lat, lon });
   }
 };
