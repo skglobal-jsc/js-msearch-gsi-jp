@@ -1,7 +1,7 @@
 import {
   ReverseGeocodingOptions,
   ReverseGeocodingResultJP,
-} from './interfaces';
+} from './interfaces/index';
 
 /**
  * vector tiles settings for each country

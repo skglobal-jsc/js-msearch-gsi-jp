@@ -5,7 +5,7 @@ import {
   ReverseGeocodingOptions,
   ReverseGeocodingResult,
   ReverseGeocodingResultJP,
-} from './interfaces';
+} from './interfaces/index';
 import countryOptions from './countryOptions';
 import { getTile, getTileResult } from './utils';
 

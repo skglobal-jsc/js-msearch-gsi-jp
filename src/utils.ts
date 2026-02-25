@@ -1,7 +1,7 @@
 import pointInPolygon from 'point-in-polygon';
 import axios, { AxiosInstance } from 'axios';
 import { VectorTile } from 'mapbox-vector-tile';
-import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces';
+import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces/index';
 
 /**
  * Get a tile from targeted country's tilesets by using x and y tile index
