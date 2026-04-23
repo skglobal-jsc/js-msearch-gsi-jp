@@ -21,9 +21,12 @@ const api = setupCache(
 );
 
 api.interceptors.request.use((config) => {
-  const fullUrl = `${config.baseURL}${config.url}?${new URLSearchParams(
-    config.params
-  ).toString()}`;
+  const base = config.baseURL ?? '';
+  const path = config.url ?? '';
+  const query = config.params
+    ? `?${new URLSearchParams(config.params as Record<string, string>).toString()}`
+    : '';
+  const fullUrl = `${base}${path}${query}`;
   console.log('Full URL:', fullUrl);
   return config;
 });
