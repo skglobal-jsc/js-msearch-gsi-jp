@@ -24,3 +24,4 @@ export interface ReverseGeocodingResultJP extends ReverseGeocodingResult {
   city?: string
 }
 
+

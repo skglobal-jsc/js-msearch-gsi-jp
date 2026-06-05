@@ -24,6 +24,17 @@ const countryOptions: { [s: string]: ReverseGeocodingOptions } = {
       return res;
     },
   },
+  // JMA class20s tile — update tileUrl and getResult.code property name after generating tiles
+  JMA_CLASS20: {
+    zoomBase: 10,
+    tileUrl: 'https://skglobal-jsc.github.io/js-msearch-gsi-jp/tiles/jma-class20s/{z}/{x}/{y}.pbf',
+    layer: 'jma-class20s',
+    getResult: function (feature: GeoJSON.Feature) {
+      // Update the property key below to match the class20 code field in your shapefile DBF
+      const code = feature.properties?.code ?? feature.properties?.CODE ?? String(feature.id);
+      return { code: String(code) };
+    },
+  },
 };
 
 // default country options
