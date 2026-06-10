@@ -28,10 +28,9 @@ const countryOptions: { [s: string]: ReverseGeocodingOptions } = {
   JMA_CLASS20: {
     zoomBase: 10,
     tileUrl: 'https://skglobal-jsc.github.io/js-msearch-gsi-jp/tiles/jma-class20s/{z}/{x}/{y}.pbf',
-    layer: 'jma-class20s',
+    layer: '市町村等（気象警報等）',
     getResult: function (feature: GeoJSON.Feature) {
-      // Update the property key below to match the class20 code field in your shapefile DBF
-      const code = feature.properties?.code ?? feature.properties?.CODE ?? String(feature.id);
+      const code = feature.properties?.regioncode ?? String(feature.id);
       return { code: String(code) };
     },
   },

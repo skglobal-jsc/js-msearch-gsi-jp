@@ -61,7 +61,13 @@ export const getTileResult = (
     if (layer && options.layer === layer.name) {
       for (let i = 0; i < layer.length; i++) {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const feature: any = layer.feature(i).toGeoJSON(x, y, options.zoomBase);
+        let feature: any;
+        try {
+          feature = layer.feature(i).toGeoJSON(x, y, options.zoomBase);
+        } catch (err) {
+          console.warn(`[getTileResult] skipping feature ${i}: toGeoJSON failed —`, (err as Error).message);
+          continue;
+        }
         if (layers.length > 1) feature.properties.vt_layer = layerID;
 
         // Check if point is inside polygon
