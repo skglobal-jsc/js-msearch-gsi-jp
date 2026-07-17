@@ -98,6 +98,11 @@ node_modules
 log.txt
 data/code
 tmp
-docs/
+docs/*
+!docs/tiles/
+docs/tiles/*
+!docs/tiles/10/
+!docs/tiles/jma-class20s/
+!docs/tiles/jma-class20s-new/
 
 .claude
