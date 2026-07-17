@@ -9,8 +9,8 @@ const parseNumberArg = (value: string | undefined, fallback: number): number => 
 };
 
 const run = async (): Promise<void> => {
-  const lat = parseNumberArg(process.argv[2], 35.71278973783185);
-  const lon = parseNumberArg(process.argv[3], 139.7674203291535);
+  const lat = parseNumberArg(process.argv[2], 35.49678839975163);
+  const lon = parseNumberArg(process.argv[3], 139.54492307555336);
 
   console.log(`Testing latLonToJMACode with lat=${lat}, lon=${lon}`);
   const result = await latLonToJMACode(lat, lon);
