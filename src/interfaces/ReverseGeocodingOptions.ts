@@ -14,4 +14,11 @@ export interface ReverseGeocodingOptions {
    * Get reverse geocoding result from the feature
    */
   getResult: (feature: GeoJSON.Feature) => ReverseGeocodingResult
+
+  /**
+   * When true, falls back to the nearest polygon (by boundary distance) if the
+   * point doesn't fall inside any polygon in the tile — e.g. coordinates over
+   * water between land areas. Default is false (returns an empty result).
+   */
+  nearestFallback?: boolean
 }

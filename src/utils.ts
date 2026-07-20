@@ -2,6 +2,7 @@ import pointInPolygon from 'point-in-polygon';
 import axios, { AxiosInstance } from 'axios';
 import { VectorTile } from 'mapbox-vector-tile';
 import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces/index';
+import { findNearestPolygonFeature } from './nearest-polygon';
 
 /**
  * Get a tile from targeted country's tilesets by using x and y tile index
@@ -56,6 +57,9 @@ export const getTileResult = (
   if (!Array.isArray(layers)) layers = [layers];
 
   let geocodingResult: ReverseGeocodingResult = {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const matchedLayerFeatures: any[] = [];
+
   layers.forEach((layerID) => {
     const layer = tile.layers[layerID];
     if (layer && options.layer === layer.name) {
@@ -69,6 +73,7 @@ export const getTileResult = (
           continue;
         }
         if (layers.length > 1) feature.properties.vt_layer = layerID;
+        matchedLayerFeatures.push(feature);
 
         // Check if point is inside polygon
         // feature.geometry.coordinates is the polygon coordinates
@@ -93,6 +98,16 @@ export const getTileResult = (
       }
     }
   });
+
+  // Point didn't land inside any polygon (e.g. over water) — fall back to the
+  // nearest polygon boundary if the caller opted in.
+  if (!geocodingResult.code && options.nearestFallback) {
+    const nearestFeature = findNearestPolygonFeature(lnglat, matchedLayerFeatures);
+    if (nearestFeature) {
+      geocodingResult = options.getResult(nearestFeature);
+    }
+  }
+
   return geocodingResult;
 };
 

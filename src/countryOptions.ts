@@ -29,6 +29,9 @@ const countryOptions: { [s: string]: ReverseGeocodingOptions } = {
     zoomBase: 10,
     tileUrl: 'https://skglobal-jsc.github.io/js-msearch-gsi-jp/tiles/jma-class20s-new/{z}/{x}/{y}.pbf',
     layer: '市町村等（気象警報等）',
+    // Points over water (e.g. straits between mainland and islands) fall
+    // outside every polygon — fall back to the nearest land area instead.
+    nearestFallback: true,
     getResult: function (feature: GeoJSON.Feature) {
       const code = feature.properties?.regioncode ?? String(feature.id);
       return { code: String(code) };
