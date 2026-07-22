@@ -9,8 +9,8 @@ const parseNumberArg = (value: string | undefined, fallback: number): number => 
 };
 //https://blind-test.uni-voice.biz/?pageName=hazard-map&latitude=35.71278973783185&longitude=139.7674203291535
 const run = async (): Promise<void> => {
-  const lat = parseNumberArg(process.argv[2], 35.71278973783185);
-  const lon = parseNumberArg(process.argv[3], 139.7674203291535);
+  const lat = parseNumberArg(process.argv[2], 34.29596298257343);
+  const lon = parseNumberArg(process.argv[3], 132.31977485242496);
 
   console.log(`Testing latLonToAddress with lat=${lat}, lon=${lon}`);
   const result = await latLonToAddress(lat, lon);

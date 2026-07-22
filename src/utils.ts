@@ -105,6 +105,9 @@ export const getTileResult = (
     const nearestFeature = findNearestPolygonFeature(lnglat, matchedLayerFeatures);
     if (nearestFeature) {
       geocodingResult = options.getResult(nearestFeature);
+      console.warn(
+        `[getTileResult] lnglat [${lnglat[0]}, ${lnglat[1]}] fell outside all polygons — fell back to nearest polygon, code: ${geocodingResult.code}`
+      );
     }
   }
 

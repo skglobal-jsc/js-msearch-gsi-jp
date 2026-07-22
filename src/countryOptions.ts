@@ -12,6 +12,10 @@ const countryOptions: { [s: string]: ReverseGeocodingOptions } = {
     // tileUrl: `http://127.0.0.1:5500/docs/tiles/{z}/{x}/{y}.pbf`,
     tileUrl: 'https://skglobal-jsc.github.io/js-msearch-gsi-jp/tiles/{z}/{x}/{y}.pbf',
     layer: 'japanese-admins',
+    // Points over water (e.g. coastlines, straits between mainland and islands)
+    // fall outside every admin polygon — fall back to the nearest land area
+    // instead of failing over to the remote GSI service.
+    nearestFallback: true,
     getResult: function (feature: GeoJSON.Feature) {
       const res: ReverseGeocodingResultJP = {
         code:
